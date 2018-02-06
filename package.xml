@@ -926,6 +926,12 @@
         <name>ListView</name>
     </types>
     <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
+    </types>
+    <types>
         <members>PermissionTest11</members>
         <members>Permission_Set_6_org1</members>
         <members>Permission_Set_7_org1</members>
