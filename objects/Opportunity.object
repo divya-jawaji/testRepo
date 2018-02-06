@@ -133,10 +133,6 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
-        <fullName>IsExcludedFromTerritory2Filter</fullName>
-        <trackTrending>false</trackTrending>
-    </fields>
-    <fields>
         <fullName>IsPrivate</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -180,22 +176,8 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Order_Generated__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>Order Generated</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PartnerAccountId</fullName>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
@@ -214,11 +196,6 @@
         <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Territory2Id</fullName>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>TotalOpportunityQuantity</fullName>
@@ -373,38 +350,5 @@
         <showsLocation>true</showsLocation>
         <showsStatus>true</showsStatus>
         <url>http://www.fedex.com/cgi-bin/tracking?tracknumbers={!Opportunity_Tracking_Number}&amp;action=track&amp;language=english&amp;cntry_code=us</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Generate_Contract</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <linkType>url</linkType>
-        <masterLabel>Generate Contract</masterLabel>
-        <openType>replace</openType>
-        <protected>false</protected>
-        <url>/flow/Opportunity_to_Contract?OpptyID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Generate_Order</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <linkType>url</linkType>
-        <masterLabel>Generate Order</masterLabel>
-        <openType>replace</openType>
-        <protected>false</protected>
-        <url>/flow/Opportunity_to_Order?OpptyID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
-    </webLinks>
-    <webLinks>
-        <fullName>Generate_Order_Contract</fullName>
-        <availability>online</availability>
-        <displayType>button</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <linkType>url</linkType>
-        <masterLabel>Generate Order &amp; Contract</masterLabel>
-        <openType>replace</openType>
-        <protected>false</protected>
-        <url>/flow/Opportunity_to_Order_with_Contract?OpptyID={!Opportunity.Id}&amp;retURL=/{!Opportunity.Id}</url>
     </webLinks>
 </CustomObject>

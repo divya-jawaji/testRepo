@@ -46,161 +46,115 @@
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>true</enableHistory>
+    <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>StudentKnownLanguages__c</fullName>
+        <fullName>StudentCity__c</fullName>
         <externalId>false</externalId>
-        <label>StudentKnownLanguages</label>
+        <label>StudentAddress</label>
         <required>false</required>
-        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Picklist</type>
         <valueSet>
             <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Telugu</fullName>
-                    <default>false</default>
-                    <label>Telugu</label>
-                </value>
-                <value>
-                    <fullName>Hindi</fullName>
-                    <default>false</default>
-                    <label>Hindi</label>
-                </value>
-                <value>
-                    <fullName>English</fullName>
-                    <default>false</default>
-                    <label>English</label>
-                </value>
-                <value>
-                    <fullName>Tamil</fullName>
-                    <default>false</default>
-                    <label>Tamil</label>
-                </value>
-            </valueSetDefinition>
+            <valueSetName>GlobalPickList_Cities</valueSetName>
         </valueSet>
     </fields>
     <fields>
-        <fullName>StudentSkils__c</fullName>
+        <fullName>StudentInfo__c</fullName>
         <externalId>false</externalId>
-        <label>StudentSkils</label>
+        <label>StudentInfo</label>
+        <length>25</length>
         <required>false</required>
-        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>MultiselectPicklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>JAVA</fullName>
-                    <default>false</default>
-                    <label>JAVA</label>
-                </value>
-                <value>
-                    <fullName>HTML</fullName>
-                    <default>false</default>
-                    <label>HTML</label>
-                </value>
-                <value>
-                    <fullName>Javascript</fullName>
-                    <default>false</default>
-                    <label>Javascript</label>
-                </value>
-                <value>
-                    <fullName>JQuery</fullName>
-                    <default>false</default>
-                    <label>JQuery</label>
-                </value>
-                <value>
-                    <fullName>Webservices</fullName>
-                    <default>false</default>
-                    <label>Webservices</label>
-                </value>
-                <value>
-                    <fullName>Spring</fullName>
-                    <default>false</default>
-                    <label>Spring</label>
-                </value>
-                <value>
-                    <fullName>Hibernate</fullName>
-                    <default>false</default>
-                    <label>Hibernate</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-        <visibleLines>4</visibleLines>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StudentMobile__c</fullName>
+        <externalId>false</externalId>
+        <label>StudentMobile</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
     </fields>
     <label>Student</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>RECORDTYPE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
     <nameField>
         <label>Student Name</label>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
-    <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <recordTypes>
-        <fullName>sr1</fullName>
+        <fullName>StudentRecord1</fullName>
         <active>true</active>
-        <label>sr1</label>
+        <label>StudentRecord1</label>
         <picklistValues>
-            <picklist>StudentKnownLanguages__c</picklist>
+            <picklist>StudentCity__c</picklist>
             <values>
-                <fullName>English</fullName>
+                <fullName>A</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Hindi</fullName>
+                <fullName>BNG</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Tamil</fullName>
+                <fullName>C</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Telugu</fullName>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HYD</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>StudentRecord2</fullName>
+        <active>true</active>
+        <label>StudentRecord2</label>
         <picklistValues>
-            <picklist>StudentSkils__c</picklist>
+            <picklist>StudentCity__c</picklist>
             <values>
-                <fullName>HTML</fullName>
+                <fullName>A</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Hibernate</fullName>
+                <fullName>BNG</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>JAVA</fullName>
+                <fullName>C</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>JQuery</fullName>
+                <fullName>D</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Javascript</fullName>
+                <fullName>F</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Spring</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Webservices</fullName>
+                <fullName>HYD</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -208,23 +162,4 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
-    <webLinks>
-        <fullName>sweblink1</fullName>
-        <availability>online</availability>
-        <displayType>link</displayType>
-        <encodingKey>UTF-8</encodingKey>
-        <hasMenubar>false</hasMenubar>
-        <hasScrollbars>true</hasScrollbars>
-        <hasToolbar>false</hasToolbar>
-        <height>600</height>
-        <isResizable>true</isResizable>
-        <linkType>url</linkType>
-        <masterLabel>sweblink1</masterLabel>
-        <openType>newWindow</openType>
-        <position>none</position>
-        <protected>false</protected>
-        <showsLocation>false</showsLocation>
-        <showsStatus>false</showsStatus>
-        <url>{!Student__c.OwnerEmail}</url>
-    </webLinks>
 </CustomObject>

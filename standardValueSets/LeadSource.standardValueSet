@@ -26,9 +26,4 @@
         <default>false</default>
         <label>Other</label>
     </standardValue>
-    <standardValue>
-        <fullName>Example1</fullName>
-        <default>false</default>
-        <label>Example1</label>
-    </standardValue>
 </StandardValueSet>

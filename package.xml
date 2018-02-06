@@ -2,106 +2,44 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
-        <members>A101</members>
-        <members>A102</members>
-        <members>A21</members>
-        <members>A2222</members>
-        <members>A99</members>
-        <members>ARPTCls1</members>
-        <members>Ac1111</members>
-        <members>AccCls1</members>
-        <members>AccCls123567890</members>
-        <members>AccCls2</members>
-        <members>AccCls3</members>
-        <members>AccCls4</members>
-        <members>AccCls5</members>
-        <members>Account1</members>
-        <members>Account1_Test</members>
-        <members>Account_2</members>
-        <members>AppCls01</members>
-        <members>AppCls02</members>
-        <members>ApxClaMar10</members>
-        <members>ApxClass001</members>
-        <members>ApxClass001Test</members>
-        <members>ApxClass1</members>
-        <members>ApxCls1</members>
-        <members>ApxCls2</members>
-        <members>ApxCls3</members>
-        <members>ApxClsMar112017</members>
-        <members>ArDemo1</members>
-        <members>B2100</members>
-        <members>ChangePasswordController</members>
-        <members>ChangePasswordControllerTest</members>
-        <members>CommunitiesLandingController</members>
-        <members>CommunitiesLandingControllerTest</members>
-        <members>CommunitiesLoginController</members>
-        <members>CommunitiesLoginControllerTest</members>
-        <members>CommunitiesSelfRegConfirmController</members>
-        <members>CommunitiesSelfRegConfirmControllerTest</members>
-        <members>CommunitiesSelfRegController</members>
-        <members>CommunitiesSelfRegControllerTest</members>
-        <members>ForgotPasswordController</members>
-        <members>ForgotPasswordControllerTest</members>
-        <members>L1_Case</members>
-        <members>L1_Case_Test</members>
-        <members>LightningForgotPasswordController</members>
-        <members>LightningForgotPasswordControllerTest</members>
-        <members>LightningLoginFormController</members>
-        <members>LightningLoginFormControllerTest</members>
-        <members>LightningSelfRegisterController</members>
-        <members>LightningSelfRegisterControllerTest</members>
-        <members>MyProfilePageController</members>
-        <members>MyProfilePageControllerTest</members>
-        <members>SamplePageController</members>
-        <members>SiteLoginController</members>
-        <members>SiteLoginControllerTest</members>
-        <members>SiteRegisterController</members>
-        <members>SiteRegisterControllerTest</members>
-        <members>Welcome31</members>
-        <members>WelcomeTest2</members>
+        <members>sai</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
+    <types>
+        <members>ARApexclass234</members>
+        <members>ARApexclass2345</members>
+        <members>Ac3</members>
+        <members>Ac4</members>
+        <members>AcccountARTest1</members>
+        <members>ApexClass15</members>
+        <members>ApexCls01</members>
+        <members>ApexTestCodeCoverageClass1</members>
+        <members>Apex_Class1</members>
+        <members>AppClsProfile1</members>
+        <members>ClassOne</members>
+        <members>MessageInfo</members>
+        <members>MyHelloWorld</members>
+        <members>MyWorld</members>
+        <members>NewCusomClass</members>
+        <members>NewWelcome</members>
+        <members>NewYearMsg</members>
+        <members>ProfileClass2</members>
+        <members>ProfileTestClass</members>
+        <members>SARAccountClass33</members>
+        <members>SaiClass1</members>
+        <members>Sample</members>
+        <members>TestApexClass15</members>
+        <members>Welcome</members>
+        <members>WelcomeInfo</members>
+        <members>WelecomeInfo</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>SiteFooter</members>
-        <members>SiteHeader</members>
-        <members>SiteLogin</members>
-        <members>SitePoweredBy</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>AccountPage</members>
-        <members>AnswersHome</members>
-        <members>BandwidthExceeded</members>
-        <members>ChangePassword</members>
-        <members>CommunitiesLanding</members>
-        <members>CommunitiesLogin</members>
-        <members>CommunitiesSelfReg</members>
-        <members>CommunitiesSelfRegConfirm</members>
-        <members>CommunitiesTemplate</members>
-        <members>Exception</members>
-        <members>FileNotFound</members>
-        <members>ForgotPassword</members>
-        <members>ForgotPasswordConfirm</members>
-        <members>IdeasHome</members>
-        <members>InMaintenance</members>
-        <members>MyProfilePage</members>
-        <members>SiteLogin</members>
-        <members>SiteRegister</members>
-        <members>SiteRegisterConfirm</members>
-        <members>SiteTemplate</members>
-        <members>StdExceptionTemplate</members>
-        <members>Unauthorized</members>
-        <members>UnderConstruction</members>
-        <name>ApexPage</name>
     </types>
     <types>
         <members>Salesforce1</members>
         <name>AppMenu</name>
     </types>
     <types>
-        <members>Case.CaseTestRule1</members>
         <members>Case.Standard</members>
-        <members>Lead.SampleAssignmentRule1</members>
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
@@ -111,31 +49,9 @@
         <name>AssignmentRules</name>
     </types>
     <types>
-        <members>Test1Aura</members>
-        <members>forgotPassword</members>
-        <members>loginForm</members>
-        <members>selfRegister</members>
-        <members>setExpId</members>
-        <members>setStartUrl</members>
-        <name>AuraDefinitionBundle</name>
-    </types>
-    <types>
-        <members>EswarFB</members>
-        <members>EswarSForg</members>
-        <name>AuthProvider</name>
-    </types>
-    <types>
-        <members>Lead.AutoResponseRuleTest1</members>
-        <name>AutoResponseRule</name>
-    </types>
-    <types>
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
-    </types>
-    <types>
-        <members>Case.CaseSupportProcessTest1</members>
-        <name>BusinessProcess</name>
     </types>
     <types>
         <members>DataCloudGeoLocation</members>
@@ -146,19 +62,16 @@
         <name>Community</name>
     </types>
     <types>
-        <members>AutoRABITapp1</members>
-        <members>ConnectedTestApp1</members>
-        <members>ConnectedTestApp2</members>
+        <members>connected_app</members>
+        <members>screen_shot</members>
+        <members>snapchat_connected_app</members>
         <name>ConnectedApp</name>
     </types>
     <types>
-        <members>AutoRABITAPP</members>
-        <members>Test_App</members>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
-        <members>standard__LightningSales</members>
         <members>standard__LightningSalesConsole</members>
         <members>standard__LightningService</members>
         <members>standard__Marketing</members>
@@ -170,14 +83,6 @@
         <name>CustomApplication</name>
     </types>
     <types>
-        <members>Case.Case_Comments</members>
-        <members>Case.Case_info</members>
-        <members>Case.case1_info</members>
-        <members>Case.testfeed1</members>
-        <name>CustomFeedFilter</name>
-    </types>
-    <types>
-        <members>Account.AccountDescTest__c</members>
         <members>Account.AccountNumber</members>
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
@@ -191,9 +96,6 @@
         <members>Account.DunsNumber</members>
         <members>Account.Fax</members>
         <members>Account.Industry</members>
-        <members>Account.IsCustomerPortal</members>
-        <members>Account.IsExcludedFromRealign</members>
-        <members>Account.IsPartner</members>
         <members>Account.Jigsaw</members>
         <members>Account.NaicsCode</members>
         <members>Account.NaicsDesc</members>
@@ -250,7 +152,6 @@
         <members>AssetRelationship.RelatedAssetId</members>
         <members>AssetRelationship.RelationshipType</members>
         <members>AssetRelationship.ToDate</members>
-        <members>CSlabelacc1Obj__c.ExtraInfo__c</members>
         <members>Campaign.ActualCost</members>
         <members>Campaign.AmountAllOpportunities</members>
         <members>Campaign.AmountWonOpportunities</members>
@@ -342,27 +243,6 @@
         <members>Case.SuppliedPhone</members>
         <members>Case.Type</members>
         <members>CaseContactRole.Role</members>
-        <members>ChannelProgram.Category</members>
-        <members>ChannelProgram.Description</members>
-        <members>ChannelProgram.IsActive</members>
-        <members>ChannelProgram.Name</members>
-        <members>ChannelProgram.OwnerId</members>
-        <members>ChannelProgramLevel.Description</members>
-        <members>ChannelProgramLevel.Name</members>
-        <members>ChannelProgramLevel.ProgramId</members>
-        <members>ChannelProgramLevel.Rank</members>
-        <members>ChannelProgramMember.LevelId</members>
-        <members>ChannelProgramMember.PartnerId</members>
-        <members>ChannelProgramMember.ProgramId</members>
-        <members>College__c.CollegeCourses__c</members>
-        <members>College__c.CollegeOpt2__c</members>
-        <members>College__c.CollegeOpt3__c</members>
-        <members>College__c.CollegeOpt4__c</members>
-        <members>College__c.CollegeOpt__c</members>
-        <members>College__c.CollegeP1__c</members>
-        <members>College__c.CollegeP2__c</members>
-        <members>College__c.CollegeP44__c</members>
-        <members>College__c.PicklistFieldMulti1__c</members>
         <members>Contact.AccountId</members>
         <members>Contact.AssistantName</members>
         <members>Contact.AssistantPhone</members>
@@ -392,6 +272,8 @@
         <members>Contact.Phone</members>
         <members>Contact.ReportsToId</members>
         <members>Contact.Title</members>
+        <members>Contact.multi_field1__c</members>
+        <members>Contact.multipicklist_label__c</members>
         <members>ContentVersion.ContentSize</members>
         <members>ContentVersion.Description</members>
         <members>ContentVersion.FileExtension</members>
@@ -424,22 +306,6 @@
         <members>Contract.StartDate</members>
         <members>Contract.Status</members>
         <members>ContractContactRole.Role</members>
-        <members>CustomSettingListType1Obj__c.CallAvailableTime__c</members>
-        <members>CustomSettingListType1Obj__c.Custom_Desc_textarea__c</members>
-        <members>CustomSettingListType1Obj__c.Customer_Email__c</members>
-        <members>CustomSettingListType1Obj__c.Customer_Info_text__c</members>
-        <members>CustomSettingListType1Obj__c.Customer_MobileNumber__c</members>
-        <members>CustomSettingListType1Obj__c.Customer_Phone_Number__c</members>
-        <members>CustomSettingListType1Obj__c.DOB_info__c</members>
-        <members>CustomSettingListType1Obj__c.EnterCurency__c</members>
-        <members>CustomSettingListType1Obj__c.Product_Cost__c</members>
-        <members>CustomSettingListType1Obj__c.Website_URL__c</members>
-        <members>CustomSettingListType1Obj__c.desc__c</members>
-        <members>CustomSettingListType1Obj__c.isAvailable__c</members>
-        <members>CustomSettingObjectInfomartionStorag__c.Setting_Object_Infomartion2__c</members>
-        <members>CustomSettingObjectInfomartionStorag__c.Setting_Object_Infomartion__c</members>
-        <members>CustomSettingsObj1__c.test_desc__c</members>
-        <members>CustomSettingsObj1__c.test_info__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -558,8 +424,6 @@
         <members>EmailMessage.TextBody</members>
         <members>EmailMessage.ToAddress</members>
         <members>EmailMessage.ValidatedFromAddress</members>
-        <members>Emp2__c.Emp2CardType__c</members>
-        <members>Emp__c.EmpPreferWorkTimings__c</members>
         <members>Event.ActivityDate</members>
         <members>Event.ActivityDateTime</members>
         <members>Event.Description</members>
@@ -569,7 +433,6 @@
         <members>Event.EventSubtype</members>
         <members>Event.IsAllDayEvent</members>
         <members>Event.IsPrivate</members>
-        <members>Event.IsVisibleInSelfService</members>
         <members>Event.Location</members>
         <members>Event.OwnerId</members>
         <members>Event.Phone</members>
@@ -579,20 +442,8 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
-        <members>ExObj1__x.ExObj1TextField1__c</members>
-        <members>ExObj1__x.ExObjField1__c</members>
-        <members>ExtObj3__x.ExtObj3Cites__c</members>
-        <members>ExtObj3__x.ExtObj3PickList1__c</members>
-        <members>ExtObj3__x.ExtObj3PickList2__c</members>
-        <members>Hierarchy_CS__c.Type__c</members>
-        <members>HistoryTestObj__c.AboutUs__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
-        <members>InstallationObj__c.InstallationAccess__c</members>
-        <members>InstallationObj__c.InstallationType__c</members>
-        <members>InstallationObj__c.PickListReadOnly__c</members>
-        <members>InstallationObj__c.PicklIstField2__c</members>
-        <members>InstallationObj__c.PicklIstFieldAlll4343434__c</members>
         <members>Lead.Address</members>
         <members>Lead.AnnualRevenue</members>
         <members>Lead.CampaignId</members>
@@ -616,7 +467,6 @@
         <members>Lead.NumberOfEmployees</members>
         <members>Lead.NumberofLocations__c</members>
         <members>Lead.OwnerId</members>
-        <members>Lead.PartnerAccountId</members>
         <members>Lead.Phone</members>
         <members>Lead.Primary__c</members>
         <members>Lead.ProductInterest__c</members>
@@ -628,22 +478,10 @@
         <members>LeadCleanInfo.Industry</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
-        <members>Macro.IsLightningSupported</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
-        <members>OBILLSwitchesObj__c.CustomerEamil__c</members>
-        <members>OBILLSwitchesObj__c.IsAvailableForLive__c</members>
-        <members>OBILLSwitchesObj__c.NumberOFProductsPurchase__c</members>
-        <members>OBILLSwitchesObj__c.ProductCost__c</members>
-        <members>OBILLSwitchesObj__c.ProductDescription__c</members>
-        <members>OBILLSwitchesObj__c.ProductFeedBackInfo__c</members>
-        <members>OBILLSwitchesObj__c.ProductPurchaseDate__c</members>
-        <members>OBILLSwitchesObj__c.ProductSupportMobileNumber__c</members>
-        <members>OBILLSwitchesObj__c.ProductUrlInfo__c</members>
-        <members>OBILLSwitchesObj__c.ProductUsagePercentage__c</members>
-        <members>OBILLSwitchesObj__c.SwitchDateTime__c</members>
-        <members>OBILLSwitchesObj__c.Value__c</members>
+        <members>Multipicklist__c.M__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.AutorabitExtId__c</members>
@@ -654,20 +492,16 @@
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.Description</members>
         <members>Opportunity.ExpectedRevenue</members>
-        <members>Opportunity.IsExcludedFromTerritory2Filter</members>
         <members>Opportunity.IsPrivate</members>
         <members>Opportunity.LeadSource</members>
         <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.Name</members>
         <members>Opportunity.NextStep</members>
         <members>Opportunity.OrderNumber__c</members>
-        <members>Opportunity.Order_Generated__c</members>
         <members>Opportunity.OwnerId</members>
-        <members>Opportunity.PartnerAccountId</members>
         <members>Opportunity.Pricebook2Id</members>
         <members>Opportunity.Probability</members>
         <members>Opportunity.StageName</members>
-        <members>Opportunity.Territory2Id</members>
         <members>Opportunity.TotalOpportunityQuantity</members>
         <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.Type</members>
@@ -712,6 +546,11 @@
         <members>Order.ShippingAddress</members>
         <members>Order.TotalAmount</members>
         <members>Order.Type</members>
+        <members>OrderDetails__x.orderID__c</members>
+        <members>OrderDetails__x.orderLine__c</members>
+        <members>OrderDetails__x.product__c</members>
+        <members>OrderDetails__x.quantity__c</members>
+        <members>OrderDetails__x.unitPrice__c</members>
         <members>OrderItem.AvailableQuantity</members>
         <members>OrderItem.Description</members>
         <members>OrderItem.EndDate</members>
@@ -724,56 +563,13 @@
         <members>OrderItem.ServiceDate</members>
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
-        <members>PartnerFundAllocation.Amount</members>
-        <members>PartnerFundAllocation.BudgetId</members>
-        <members>PartnerFundAllocation.ChannelPartnerId</members>
-        <members>PartnerFundAllocation.Description</members>
-        <members>PartnerFundAllocation.OwnerId</members>
-        <members>PartnerFundAllocation.Title</members>
-        <members>PartnerFundAllocation.TotalApprovedFcs</members>
-        <members>PartnerFundAllocation.TotalApprovedFrs</members>
-        <members>PartnerFundAllocation.TotalReimbursedFcs</members>
-        <members>PartnerFundClaim.AllocationId</members>
-        <members>PartnerFundClaim.Amount</members>
-        <members>PartnerFundClaim.BudgetId</members>
-        <members>PartnerFundClaim.ChannelPartnerId</members>
-        <members>PartnerFundClaim.Description</members>
-        <members>PartnerFundClaim.OwnerId</members>
-        <members>PartnerFundClaim.RequestId</members>
-        <members>PartnerFundClaim.Status</members>
-        <members>PartnerFundClaim.Title</members>
-        <members>PartnerFundRequest.Activity</members>
-        <members>PartnerFundRequest.AllocationId</members>
-        <members>PartnerFundRequest.Amount</members>
-        <members>PartnerFundRequest.BudgetId</members>
-        <members>PartnerFundRequest.CampaignId</members>
-        <members>PartnerFundRequest.ChannelPartnerId</members>
-        <members>PartnerFundRequest.Description</members>
-        <members>PartnerFundRequest.DesiredOutcome</members>
-        <members>PartnerFundRequest.OwnerId</members>
-        <members>PartnerFundRequest.RequestedAmount</members>
-        <members>PartnerFundRequest.Status</members>
-        <members>PartnerFundRequest.Title</members>
-        <members>PartnerFundRequest.TotalApprovedFcs</members>
-        <members>PartnerFundRequest.TotalReimbursedFcs</members>
-        <members>PartnerMarketingBudget.Amount</members>
-        <members>PartnerMarketingBudget.Description</members>
-        <members>PartnerMarketingBudget.EndDate</members>
-        <members>PartnerMarketingBudget.OwnerId</members>
-        <members>PartnerMarketingBudget.StartDate</members>
-        <members>PartnerMarketingBudget.Title</members>
-        <members>PartnerMarketingBudget.TotalAllocatedAmount</members>
-        <members>PartnerMarketingBudget.TotalApprovedFcs</members>
-        <members>PartnerMarketingBudget.TotalApprovedFrs</members>
-        <members>PartnerMarketingBudget.TotalReimbursedFcs</members>
-        <members>PartnerMarketingBudget.Type</members>
+        <members>Orders__x.customerID__c</members>
+        <members>Orders__x.orderDate__c</members>
+        <members>Orders__x.orderID__c</members>
+        <members>Orders__x.shippedDate__c</members>
         <members>PartnerRole.ReverseRole</members>
-        <members>Pass1__c.Pass1Mobile1__c</members>
-        <members>Pass1__c.info__c</members>
-        <members>Pass1__c.infotestarea__c</members>
-        <members>Pass2__c.Pass2Mobile1__c</members>
-        <members>Pass3__c.Pass3Info__c</members>
-        <members>Pass3__c.Pass3Mobile1__c</members>
+        <members>PaymentMechanisms__x.id__c</members>
+        <members>PaymentMechanisms__x.name__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
@@ -795,24 +591,6 @@
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
         <members>Product2.StockKeepingUnit</members>
-        <members>QuickInfoObj__c.A__c</members>
-        <members>QuickInfoObj__c.B__c</members>
-        <members>QuickInfoObj__c.C__c</members>
-        <members>QuickInfoObj__c.D__c</members>
-        <members>QuickInfoObj__c.EE__c</members>
-        <members>QuickInfoObj__c.QuickInfoObjDescription__c</members>
-        <members>QuickInfoObj__c.QuickInfoOnlineAvailable__c</members>
-        <members>QuickInfoObj__c.QuickInfoPhone__c</members>
-        <members>QuickInfoObj__c.Specialquot_info__c</members>
-        <members>QuickInfoObj__c.T__c</members>
-        <members>QuickInfoObj__c.bb__c</members>
-        <members>QuickInfoObj__c.e__c</members>
-        <members>QuickInfoObj__c.p__c</members>
-        <members>QuickInfoObj__c.text__c</members>
-        <members>SObj1__c.FirstField__c</members>
-        <members>SObj1__c.FormulaField__c</members>
-        <members>SObj1__c.SObj1Desc__c</members>
-        <members>SObj1__c.SecondField__c</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
         <members>ScorecardMetric.Category</members>
@@ -832,8 +610,9 @@
         <members>Solution.SolutionName</members>
         <members>Solution.SolutionNote</members>
         <members>Solution.Status</members>
-        <members>Student__c.StudentKnownLanguages__c</members>
-        <members>Student__c.StudentSkils__c</members>
+        <members>Student__c.StudentCity__c</members>
+        <members>Student__c.StudentInfo__c</members>
+        <members>Student__c.StudentMobile__c</members>
         <members>Task.ActivityDate</members>
         <members>Task.CallDisposition</members>
         <members>Task.CallDurationInSeconds</members>
@@ -843,7 +622,6 @@
         <members>Task.Email</members>
         <members>Task.IsRecurrence</members>
         <members>Task.IsReminderSet</members>
-        <members>Task.IsVisibleInSelfService</members>
         <members>Task.OwnerId</members>
         <members>Task.Phone</members>
         <members>Task.Priority</members>
@@ -855,27 +633,6 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
-        <members>Territory2.AccountAccessLevel</members>
-        <members>Territory2.CaseAccessLevel</members>
-        <members>Territory2.ContactAccessLevel</members>
-        <members>Territory2.Description</members>
-        <members>Territory2.DeveloperName</members>
-        <members>Territory2.Name</members>
-        <members>Territory2.OpportunityAccessLevel</members>
-        <members>Territory2.ParentTerritory2Id</members>
-        <members>Territory2.Territory2ModelId</members>
-        <members>Territory2.Territory2TypeId</members>
-        <members>Territory2Model.ActivatedDate</members>
-        <members>Territory2Model.DeactivatedDate</members>
-        <members>Territory2Model.Description</members>
-        <members>Territory2Model.DeveloperName</members>
-        <members>Territory2Model.IsCloneSource</members>
-        <members>Territory2Model.LastOppTerrAssignEndDate</members>
-        <members>Territory2Model.LastRunRulesEndDate</members>
-        <members>Territory2Model.Name</members>
-        <members>Territory2Model.State</members>
-        <members>Test1234__c.ExtraInfoOnTest1234__c</members>
-        <members>Test1234__c.TestCheckBox__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -888,236 +645,113 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
-        <members>UserTerritory2Association.RoleInTerritory2</members>
-        <members>Visitor__c.NumberOfVisitors__c</members>
+        <members>screenshot_external__x.picklist123__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>CL</members>
-        <members>Cls1</members>
-        <members>Cls2</members>
-        <members>Cls3</members>
-        <members>CustomLabel1</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>ARCustomSetting1ListSeetingObj__c</members>
         <members>Account</members>
         <members>AccountCleanInfo</members>
         <members>AccountContactRole</members>
-        <members>Account_Profile_Setting__c</members>
-        <members>Account_Profile__c</members>
         <members>Activity</members>
         <members>Asset</members>
         <members>AssetRelationship</members>
         <members>AssistantProgress</members>
-        <members>AutoRABITAPP__c</members>
-        <members>CSlabelacc1Obj__c</members>
         <members>Campaign</members>
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
-        <members>ChannelProgram</members>
-        <members>ChannelProgramLevel</members>
-        <members>ChannelProgramMember</members>
-        <members>College__c</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
-        <members>CustomSettingListType1Obj__c</members>
-        <members>CustomSettingObjectInfomartionStorag__c</members>
-        <members>CustomSettingsObj1__c</members>
+        <members>CustomSettingTestObj12_c__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
         <members>EmailMessage</members>
-        <members>Emp2__c</members>
-        <members>Emp__c</members>
         <members>Event</members>
-        <members>ExObj1__x</members>
-        <members>ExObj2__x</members>
         <members>ExchangeUserMapping</members>
-        <members>ExtObj3__x</members>
         <members>FeedItem</members>
         <members>ForecastingCategoryMapping</members>
-        <members>Hierarchy_CS__c</members>
-        <members>HistoryTestObj__c</members>
         <members>Idea</members>
-        <members>InstallationObj__c</members>
+        <members>LanguagesKnown__c</members>
+        <members>Languages__c</members>
         <members>Lead</members>
         <members>LeadCleanInfo</members>
         <members>Macro</members>
         <members>MacroAction</members>
         <members>MacroInstruction</members>
-        <members>NetworkMember</members>
-        <members>OBILLSwitchesObj__c</members>
-        <members>OnlineSalesKeyObj2__c</members>
-        <members>OnlineSalesKeyObj__c</members>
+        <members>Multipicklist__c</members>
+        <members>New_Custom_Object__c</members>
         <members>Opportunity</members>
         <members>OpportunityCompetitor</members>
         <members>OpportunityContactRole</members>
         <members>OpportunityLineItem</members>
         <members>Order</members>
+        <members>OrderDetails__x</members>
         <members>OrderItem</members>
-        <members>PartnerFundAllocation</members>
-        <members>PartnerFundClaim</members>
-        <members>PartnerFundRequest</members>
-        <members>PartnerMarketingBudget</members>
+        <members>Orders__x</members>
         <members>PartnerRole</members>
-        <members>Pass1__c</members>
-        <members>Pass2__c</members>
-        <members>Pass3__c</members>
+        <members>PaymentMechanisms__x</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
-        <members>PrivateCustomSettingObj__c</members>
         <members>Product2</members>
-        <members>QuickInfoObj__c</members>
-        <members>SObj1__c</members>
         <members>Scorecard</members>
         <members>ScorecardMetric</members>
-        <members>Single_Quote_Obj__c</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
         <members>StreamingChannel</members>
         <members>Student__c</members>
         <members>Task</members>
-        <members>Territory2</members>
-        <members>Territory2Model</members>
-        <members>Test1234__c</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
-        <members>UserTerritory2Association</members>
-        <members>Visitor__c</members>
-        <members>commonObj__c</members>
-        <members>safasf_test_obj__c</members>
-        <members>stdobjapi__c</members>
+        <members>external_information__x</members>
+        <members>mulpicklist__c</members>
+        <members>multilabel__c</members>
+        <members>myaccount__c</members>
+        <members>screenshot_external__x</members>
+        <members>teachers__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>ARCustomSetting1ListSeetingObj__c-en_US</members>
-        <members>Account_Profile_Setting__c-en_US</members>
-        <members>Account_Profile__c-en_US</members>
-        <members>AutoRABITAPP__c-en_US</members>
-        <members>CSlabelacc1Obj__c-en_US</members>
-        <members>College__c-en_US</members>
-        <members>CustomSettingListType1Obj__c-en_US</members>
-        <members>CustomSettingObjectInfomartionStorag__c-en_US</members>
-        <members>CustomSettingsObj1__c-en_US</members>
-        <members>Emp2__c-en_US</members>
-        <members>Emp__c-en_US</members>
-        <members>ExtObj3__x-en_US</members>
-        <members>Hierarchy_CS__c-en_US</members>
-        <members>HistoryTestObj__c-en_US</members>
-        <members>InstallationObj__c-en_US</members>
-        <members>OBILLSwitchesObj__c-en_US</members>
-        <members>OnlineSalesKeyObj2__c-en_US</members>
-        <members>OnlineSalesKeyObj__c-en_US</members>
-        <members>Pass1__c-en_US</members>
-        <members>Pass2__c-en_US</members>
-        <members>Pass3__c-en_US</members>
-        <members>PrivateCustomSettingObj__c-en_US</members>
-        <members>QuickInfoObj__c-en_US</members>
-        <members>SObj1__c-en_US</members>
-        <members>Single_Quote_Obj__c-en_US</members>
+        <members>CustomSettingTestObj12_c__c-en_US</members>
+        <members>LanguagesKnown__c-en_US</members>
+        <members>Languages__c-en_US</members>
+        <members>Multipicklist__c-en_US</members>
+        <members>New_Custom_Object__c-en_US</members>
+        <members>OrderDetails__x-en_US</members>
+        <members>Orders__x-en_US</members>
+        <members>PaymentMechanisms__x-en_US</members>
         <members>Student__c-en_US</members>
-        <members>Test1234__c-en_US</members>
-        <members>Visitor__c-en_US</members>
-        <members>commonObj__c-en_US</members>
-        <members>safasf_test_obj__c-en_US</members>
-        <members>stdobjapi__c-en_US</members>
+        <members>external_information__x-en_US</members>
+        <members>mulpicklist__c-en_US</members>
+        <members>multilabel__c-en_US</members>
+        <members>myaccount__c-en_US</members>
+        <members>screenshot_external__x-en_US</members>
+        <members>teachers__c-en_US</members>
         <name>CustomObjectTranslation</name>
     </types>
     <types>
-        <members>EswarCom</members>
-        <members>Test_Site</members>
-        <name>CustomSite</name>
-    </types>
-    <types>
-        <members>AutoRABITAPP__c</members>
-        <members>College__c</members>
-        <members>Emp2__c</members>
-        <members>Emp__c</members>
-        <members>ExtObj3__x</members>
-        <members>HistoryTestObj__c</members>
-        <members>InstallationObj__c</members>
-        <members>Pass1__c</members>
-        <members>Pass2__c</members>
-        <members>Pass3__c</members>
-        <members>SObj1__c</members>
+        <members>CustomSettingTestObj12_c__c</members>
+        <members>New_Custom_Object__c</members>
         <members>Student__c</members>
-        <members>Visitor__c</members>
+        <members>external_information__x</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Best_Practice_Service_Dashboards</members>
-        <members>Best_Practice_Service_Dashboards/ARDashboard1</members>
-        <members>Best_Practice_Service_Dashboards/Agent_Supervisor_Overview</members>
-        <members>Best_Practice_Service_Dashboards/Service_Exec_Overview</members>
-        <members>Best_Practice_Service_Dashboards/Service_KPIs</members>
-        <members>Sales_Marketing_Dashboards</members>
-        <members>Sales_Marketing_Dashboards/Marketing_Executive_Dashboard</members>
-        <members>Sales_Marketing_Dashboards/Sales_Executive_Dashboard</members>
-        <members>Sales_Marketing_Dashboards/Sales_Manager_Dashboard</members>
-        <members>Sales_Marketing_Dashboards/Salesperson_Dashboard</members>
-        <name>Dashboard</name>
-    </types>
-    <types>
-        <members>ABI</members>
-        <members>ABI/newtextdoc.txt</members>
-        <members>ARardocuments1.png</members>
-        <members>ARdocuments</members>
-        <members>FirstBannerImages</members>
-        <members>FirstBannerImages/A_D_540x540_jpg.jpg</members>
-        <members>Folder25</members>
-        <members>Folder25/Image1.jpg</members>
-        <members>Folder26</members>
-        <members>Folder26/DocTest132.jpg</members>
-        <members>SalesTools</members>
-        <members>TestYousuf</members>
-        <members>TestYousuf/TestDeployment.jpg</members>
-        <members>TestYousufFix</members>
-        <members>TestYousufFix/TestDeploymentFix.jpg</members>
-        <name>Document</name>
-    </types>
-    <types>
-        <members>Account.AccountDuplicateRule1</members>
-        <members>Account.AccountDuplicateRule2</members>
-        <members>Account.AccountDuplicateRule3</members>
-        <members>Account.AccountDuplicateRule4</members>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
-        <members>Emp__c.Emp</members>
-        <members>Emp__c.testr2</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
     </types>
     <types>
-        <members>Ap_PF_test1</members>
-        <members>Ap_PF_test2</members>
-        <members>Ap_PF_test3</members>
-        <members>Ap_PF_test4</members>
-        <members>Ap_PF_test4/test4</members>
-        <members>Ap_PF_test5</members>
-        <members>CustomEmailFolder</members>
-        <members>CustomEmailFolder/CustomTemplate1</members>
-        <members>CustomEmailFolder/TextTemplate1</members>
-        <members>EMailTemp02</members>
-        <members>EMailTemp02/SupportCaseAssignmentNotification</members>
-        <members>HiddenFolder1</members>
-        <members>HiddenFolder1/HiddenTemplate1</members>
-        <members>unfiled$public/CommunityChangePasswordEmailTemplate</members>
-        <members>unfiled$public/CommunityForgotPasswordEmailTemplate</members>
-        <members>unfiled$public/CommunityWelcomeEmailTemplate</members>
         <members>unfiled$public/MarketingProductInquiryResponse</members>
-        <members>unfiled$public/PartnerChangePwdEmail</members>
-        <members>unfiled$public/PartnerNewUserEmail</members>
-        <members>unfiled$public/PublicTestTemplate1</members>
         <members>unfiled$public/SUPPORTSelfServiceNewCommentNotificationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <members>unfiled$public/SalesNewCustomerEmail</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
         <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
         <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
         <members>unfiled$public/SupportCaseResponse</members>
@@ -1132,10 +766,13 @@
         <name>EscalationRule</name>
     </types>
     <types>
-        <members>CrosDatasource1</members>
-        <members>EswarDataSourceTest1</members>
-        <members>ExtDataSource2</members>
+        <members>OrderDB</members>
         <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>screenshot_external__x.picklist12</members>
+        <members>screenshot_external__x.picklist23</members>
+        <name>FieldSet</name>
     </types>
     <types>
         <members>LightningSalesConsole_UtilityBar</members>
@@ -1143,28 +780,10 @@
         <name>FlexiPage</name>
     </types>
     <types>
-        <members>Opportunity_to_Contract-1</members>
-        <members>Opportunity_to_Order-1</members>
-        <members>Opportunity_to_Order_with_Contract-50</members>
-        <members>TestFlowProperty1-1</members>
-        <members>Test_Process-1</members>
-        <name>Flow</name>
-    </types>
-    <types>
-        <members>Opportunity_to_Contract</members>
-        <members>Opportunity_to_Order</members>
-        <members>Opportunity_to_Order_with_Contract</members>
-        <members>TestFlowProperty1</members>
-        <members>Test_Process</members>
-        <name>FlowDefinition</name>
-    </types>
-    <types>
-        <members>GlobalPickListTest1</members>
-        <members>GlobalPickListTest2</members>
-        <members>GlobalPickListTest3</members>
-        <members>GlobalTestValueSet1</members>
-        <members>GlobalValuesetTest1</members>
-        <members>Test_Global_Picklist</members>
+        <members>GlobalPickList_Cities</members>
+        <members>multilabel</members>
+        <members>multipicklist</members>
+        <members>picklist1</members>
         <name>GlobalValueSet</name>
     </types>
     <types>
@@ -1176,19 +795,11 @@
         <name>InstalledPackage</name>
     </types>
     <types>
-        <members>EswarCom.Banned</members>
-        <name>KeywordList</name>
-    </types>
-    <types>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
-        <members>Account-Account_Testing</members>
-        <members>Account_Profile_Setting__c-Account Profile Setting Layout</members>
-        <members>Account_Profile__c-Account Profile Layout</members>
         <members>Asset-Asset Layout</members>
-        <members>AutoRABITAPP__c-AutoRABITAPP Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -1196,75 +807,64 @@
         <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
-        <members>ChannelProgram-Channel Program Layout</members>
-        <members>ChannelProgramLevel-Channel Program Level Layout</members>
-        <members>ChannelProgramMember-Channel Program Member Layout</members>
-        <members>College__c-College Layout</members>
         <members>Contact-Contact %28Marketing%29 Layout</members>
         <members>Contact-Contact %28Sales%29 Layout</members>
         <members>Contact-Contact %28Support%29 Layout</members>
         <members>Contact-Contact Layout</members>
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
+        <members>CustomSettingTestObj12_c__c-CustomSettingTestObj12%5F%5Fc Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
+        <members>DuplicateRecordItem-Duplicate Record Item Layout</members>
+        <members>DuplicateRecordItem-page layout1</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout</members>
-        <members>Emp2__c-Emp2 Layout</members>
-        <members>Emp__c-Emp Layout</members>
         <members>Event-Event Layout</members>
-        <members>ExtObj3__x-ExtObj3 Layout</members>
         <members>FeedItem-Feed Item Layout</members>
         <members>Global-Global Layout</members>
-        <members>HistoryTestObj__c-HistoryTestObj Layout</members>
         <members>Idea-Idea Layout</members>
-        <members>InstallationObj__c-InstallationObj Layout</members>
-        <members>InstallationObj__c-InstllationDuplicateLayout1</members>
+        <members>LanguagesKnown__c-LanguagesKnown Layout</members>
+        <members>Languages__c-Language Layout</members>
+        <members>Languages__c-fourtycharecterpagelayoutcharacter%5F%5F%5F%5Fassignment%5F%5F%5F%5F%5F%5F%5F%5F%5F%5F_layout</members>
+        <members>Languages__c-twentyletterpagelayout</members>
         <members>Lead-Lead %28Marketing%29 Layout</members>
         <members>Lead-Lead %28Sales%29 Layout</members>
         <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>Macro-Macro Layout</members>
-        <members>ObjectTerritory2AssignmentRule-Object Territory Assignment Rule Layout</members>
+        <members>Multipicklist__c-Multipicklist Layout</members>
+        <members>New_Custom_Object__c-New_Custom_Object Layout</members>
         <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
         <members>Opportunity-Opportunity %28Sales%29 Layout</members>
         <members>Opportunity-Opportunity %28Support%29 Layout</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
         <members>Order-Order Layout</members>
+        <members>OrderDetails__x-OrderDetails Layout</members>
         <members>OrderItem-Order Product Layout</members>
-        <members>PartnerFundAllocation-Partner Fund Allocation Layout</members>
-        <members>PartnerFundClaim-Partner Fund Claim Layout</members>
-        <members>PartnerFundRequest-Partner Fund Request Layout</members>
-        <members>PartnerMarketingBudget-Partner Marketing Budget Layout</members>
-        <members>Pass1__c-Pass1 Layout</members>
-        <members>Pass2__c-Pass2 Layout</members>
-        <members>Pass3__c-Pass3 Layout</members>
+        <members>Orders__x-Orders Layout</members>
+        <members>PaymentMechanisms__x-PaymentMechanisms Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
-        <members>SObj1__c-SObj1 Layout</members>
         <members>Scorecard-Scorecard Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
-        <members>Single_Quote_Obj__c-Single%27Quote%27Obj Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Student__c-Student Layout</members>
+        <members>Student__c-StudentLayOut2</members>
+        <members>Student__c-StudentLayOut3</members>
         <members>Task-Task Layout</members>
-        <members>Territory2-Territory Layout</members>
-        <members>Territory2Model-Territory Model Layout</members>
-        <members>Territory2Type-Territory Type Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>Visitor__c-Visitor Layout</members>
-        <members>commonObj__c-commonObj Layout</members>
-        <members>safasf_test_obj__c-safasf%22test%22obj Layout</members>
-        <members>stdobjapi__c-stdobjlabel Layout</members>
+        <members>external_information__x-external_information Layout</members>
+        <members>mulpicklist__c-mulpicklist Layout</members>
+        <members>multilabel__c-multilabel Layout</members>
+        <members>myaccount__c-myaccount Layout</members>
+        <members>screenshot_external__x-screenshot_externals Layout</members>
+        <members>teachers__c-teacher Layout</members>
         <name>Layout</name>
-    </types>
-    <types>
-        <members>letterHead1</members>
-        <name>Letterhead</name>
     </types>
     <types>
         <members>Account.AllAccounts</members>
@@ -1277,18 +877,12 @@
         <members>Activity.TodaysTasks</members>
         <members>Activity.UpcomingEvents</members>
         <members>Asset.AllAssets</members>
-        <members>AutoRABITAPP__c.All</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
         <members>Case.AllClosedCases</members>
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
-        <members>ChannelProgram.All_Channel_Programs</members>
-        <members>ChannelProgram.My_Channel_Programs</members>
-        <members>ChannelProgramLevel.All_Channel_Program_Levels</members>
-        <members>ChannelProgramLevel.My_Channel_Program_Levels</members>
-        <members>College__c.All</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.MyContacts</members>
@@ -1301,19 +895,14 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
-        <members>Emp2__c.All</members>
-        <members>Emp__c.All</members>
-        <members>ExObj1__x.All</members>
-        <members>ExObj2__x.All</members>
-        <members>ExtObj3__x.All</members>
-        <members>HistoryTestObj__c.All</members>
+        <members>CustomSettingTestObj12_c__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
-        <members>InstallationObj__c.All</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
         <members>Lead.TodaysLeads</members>
         <members>Lead.ViewCustom1</members>
         <members>Lead.ViewCustom2</members>
+        <members>New_Custom_Object__c.All</members>
         <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
@@ -1326,70 +915,35 @@
         <members>Order.AllActivatedOrders</members>
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
-        <members>PartnerFundAllocation.All_Partner_Fund_Allocations</members>
-        <members>PartnerFundAllocation.My_Partner_Fund_Allocations</members>
-        <members>PartnerFundClaim.All_Partner_Fund_Claims</members>
-        <members>PartnerFundClaim.My_Partner_Fund_Claims</members>
-        <members>PartnerFundRequest.All_Partner_Fund_Requests</members>
-        <members>PartnerFundRequest.My_Partner_Fund_Requests</members>
-        <members>PartnerMarketingBudget.All_Partner_Marketing_Budgets</members>
-        <members>PartnerMarketingBudget.My_Partner_Marketing_Budgets</members>
-        <members>Pass1__c.All</members>
-        <members>Pass2__c.All</members>
-        <members>Pass3__c.All</members>
         <members>Product2.AllProducts</members>
-        <members>SObj1__c.All</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Student__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
-        <members>Visitor__c.All</members>
+        <members>external_information__x.All</members>
         <name>ListView</name>
     </types>
     <types>
-        <members>EswarCom</members>
-        <name>ManagedTopics</name>
-    </types>
-    <types>
-        <members>Account.AccountDuplicateRule2_matching_rule</members>
-        <members>Account.tesatr1_matching_rule</members>
-        <members>College__c.CollegematchingRule1</members>
-        <members>Emp__c.AccountDuplicateRule4_matching_rule</members>
-        <members>Emp__c.Emp_matching_rule</members>
-        <members>Emp__c.testr2_matching_rule</members>
-        <name>MatchingRule</name>
-    </types>
-    <types>
-        <members>EswarCom.Block_banned_keywords</members>
-        <members>EswarCom.Flag_banned</members>
-        <members>EswarCom.Freeze_for_frequent_posting</members>
-        <members>EswarCom.Replace_banned</members>
-        <members>EswarCom.Review_the_first_post</members>
-        <name>ModerationRule</name>
-    </types>
-    <types>
-        <members>EswarCom</members>
-        <name>Network</name>
-    </types>
-    <types>
-        <members>EswarPermissionSet1</members>
-        <members>Freestyle_Support_Access_SE</members>
-        <members>TestPermissionSet123</members>
+        <members>PermissionTest11</members>
+        <members>Permission_Set_6_org1</members>
+        <members>Permission_Set_7_org1</members>
+        <members>Permission_set_1_org1</members>
+        <members>Permission_set_2_org1</members>
+        <members>Permission_set_3_org1</members>
+        <members>Permission_set_4_org1</members>
+        <members>Permission_set_5_org1</members>
+        <members>org1_set_2</members>
+        <members>org1_set_3</members>
+        <members>org_1_set_1</members>
+        <members>temp_permissionset</members>
+        <members>temp_permissionset2</members>
         <name>PermissionSet</name>
     </types>
     <types>
-        <members>Partner Portal</members>
-        <name>Portal</name>
-    </types>
-    <types>
-        <members>Emp__c.TestPostTemplate</members>
-        <name>PostTemplate</name>
-    </types>
-    <types>
+        <members>ATESTProfile1</members>
         <members>Admin</members>
-        <members>AdminProfile1</members>
         <members>Analytics Cloud Integration User</members>
         <members>Analytics Cloud Security User</members>
         <members>Authenticated Website</members>
@@ -1397,7 +951,6 @@
         <members>Chatter Free User</members>
         <members>Chatter Moderator User</members>
         <members>ContractManager</members>
-        <members>Controller%27s Profile</members>
         <members>Cross Org Data Proxy User</members>
         <members>Custom%3A Marketing Profile</members>
         <members>Custom%3A Sales Profile</members>
@@ -1408,12 +961,10 @@
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
-        <members>EswarCom Profile</members>
         <members>External Identity User</members>
         <members>Force%2Ecom - App Subscription User</members>
         <members>Force%2Ecom - Free User</members>
         <members>Gold Partner User</members>
-        <members>Guest</members>
         <members>High Volume Customer Portal User</members>
         <members>HighVolumePortal</members>
         <members>Identity User</members>
@@ -1421,17 +972,17 @@
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
-        <members>Personal %2F info on%28specialchars%29</members>
         <members>PlatformPortal</members>
         <members>ReadOnly</members>
-        <members>SadmPrfoile1</members>
+        <members>SAProfile22</members>
+        <members>SATest3</members>
+        <members>SaProfile1</members>
         <members>Silver Partner User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
         <members>StandardAul</members>
-        <members>System Administrator</members>
-        <members>Test Site Profile</members>
         <members>Work%2Ecom Only User</members>
+        <members>profile one</members>
         <name>Profile</name>
     </types>
     <types>
@@ -1461,100 +1012,14 @@
         <name>QuickAction</name>
     </types>
     <types>
-        <members>Emp2__c.Emp2Record1</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
-        <members>InstallationObj__c.INRecord1234</members>
-        <members>InstallationObj__c.Instr3</members>
-        <members>InstallationObj__c.PickListField1RecordType1</members>
-        <members>InstallationObj__c.instr1</members>
-        <members>InstallationObj__c.instr2All</members>
-        <members>Student__c.sr1</members>
+        <members>Student__c.StudentRecord1</members>
+        <members>Student__c.StudentRecord2</members>
         <name>RecordType</name>
     </types>
     <types>
         <members>ApexDevNet</members>
         <name>RemoteSiteSetting</name>
-    </types>
-    <types>
-        <members>Best_Practice_Service_Reports</members>
-        <members>Best_Practice_Service_Reports/Age_of_Cases_Currently_Open_by_Type</members>
-        <members>Best_Practice_Service_Reports/Aged_Cases_by_Account</members>
-        <members>Best_Practice_Service_Reports/Aged_Cases_by_Agent</members>
-        <members>Best_Practice_Service_Reports/Average_Case_Resolution_Time_1</members>
-        <members>Best_Practice_Service_Reports/Average_Case_Resolution_Time_MTD</members>
-        <members>Best_Practice_Service_Reports/Avg_Case_Resolution_Time_MTD_by_Agen</members>
-        <members>Best_Practice_Service_Reports/Case_Resolution_Time_MTD_by_Origin</members>
-        <members>Best_Practice_Service_Reports/Cases_Closed_MTD</members>
-        <members>Best_Practice_Service_Reports/Cases_Closed_MTD_by_Agent</members>
-        <members>Best_Practice_Service_Reports/Cases_Created_MTD</members>
-        <members>Best_Practice_Service_Reports/Cases_Currently_Open</members>
-        <members>Best_Practice_Service_Reports/Cases_Currently_Open_by_Account</members>
-        <members>Best_Practice_Service_Reports/Cases_Currently_Open_by_Agent</members>
-        <members>Best_Practice_Service_Reports/Cases_Currently_Open_by_Origin</members>
-        <members>Best_Practice_Service_Reports/Cases_Currently_Open_by_Priority</members>
-        <members>Best_Practice_Service_Reports/Cases_Currently_Open_by_Type</members>
-        <members>Best_Practice_Service_Reports/Cases_by_Origin</members>
-        <members>Best_Practice_Service_Reports/Cases_by_Origin_and_Open_Status</members>
-        <members>Best_Practice_Service_Reports/Cases_by_Priority</members>
-        <members>Best_Practice_Service_Reports/Cases_by_Type_and_Open_Status</members>
-        <members>Best_Practice_Service_Reports/High_Priority_Open_Cases_by_Account</members>
-        <members>Best_Practice_Service_Reports/Top_10_Cases_by_Age</members>
-        <members>Best_Practice_Service_Reports/Trend_of_Case_Resolution_Time</members>
-        <members>Best_Practice_Service_Reports/Trend_of_Cases_Closed</members>
-        <members>Best_Practice_Service_Reports/Trend_of_Cases_Created</members>
-        <members>DashboardReportsAdoption</members>
-        <members>DashboardReportsAdoption/UsageActivitiesCompleted</members>
-        <members>Enrollments</members>
-        <members>Enrollments/Emps_Admin_Users_2</members>
-        <members>ForTest</members>
-        <members>QA_Reports</members>
-        <members>QA_Reports/Students_Admin_Users</members>
-        <members>QA_Reports/testreport1234</members>
-        <members>Report_Folder</members>
-        <members>Report_Folder/Contact_Report</members>
-        <members>Sales_Marketing_Dashboard_Reports</members>
-        <members>Sales_Marketing_Dashboard_Reports/Activities_by_Salesperson</members>
-        <members>Sales_Marketing_Dashboard_Reports/CampaignROIbyCampaignType</members>
-        <members>Sales_Marketing_Dashboard_Reports/CampaignsbyROI</members>
-        <members>Sales_Marketing_Dashboard_Reports/Closed_Deals_leader_board</members>
-        <members>Sales_Marketing_Dashboard_Reports/Closed_opportunity</members>
-        <members>Sales_Marketing_Dashboard_Reports/Leads_by_Industry</members>
-        <members>Sales_Marketing_Dashboard_Reports/LeadsbySource</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Amount_per_Camp</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Conversion_Rate</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Converted_Amount</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Converted_and_Won_Amount</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Converted_by_Month</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Lead_Trends_by_Status</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Leads_Converted</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_Leads_by_Campaigns</members>
-        <members>Sales_Marketing_Dashboard_Reports/Marketing_Exec_of_Leads</members>
-        <members>Sales_Marketing_Dashboard_Reports/OpportunityProductPipeline</members>
-        <members>Sales_Marketing_Dashboard_Reports/SP_Current_Month_Open_Pipeline</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Bookings_Trend</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Closed_Deals_QTD</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Lost_Deals</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Open_Deals</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Open_Pipeline</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Open_Pipeline_next_90_days</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Exec_Top_Closed_Deals</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Manager_Closed_Deals</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Manager_Open_Opportunities</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Manager_Open_Pipeline</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Manager_Pipeline_Next_90_days</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Person_Activities_Completed</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Person_Activity</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Person_MTD_Sales</members>
-        <members>Sales_Marketing_Dashboard_Reports/Sales_Person_Open_Pipeline_by_stage</members>
-        <members>reportsTest2Folder</members>
-        <members>reportsTest2Folder/testinforeport1</members>
-        <members>test1Folder</members>
-        <name>Report</name>
-    </types>
-    <types>
-        <members>Test_Report_Type</members>
-        <name>ReportType</name>
     </types>
     <types>
         <members>CEO</members>
@@ -1566,7 +1031,6 @@
         <members>DirectorChannelSales</members>
         <members>DirectorDirectSales</members>
         <members>EasternSalesTeam</members>
-        <members>Eswar_dev</members>
         <members>InstallationRepairServices</members>
         <members>MarketingTeam</members>
         <members>SVPCustomerServiceSupport</members>
@@ -1604,53 +1068,28 @@
         <members>Quote</members>
         <members>Search</members>
         <members>Security</members>
-        <members>Territory2</members>
         <name>Settings</name>
     </types>
     <types>
-        <members>College__c.CollegeSharingRules1</members>
-        <name>SharingCriteriaRule</name>
-    </types>
-    <types>
-        <members>ARCustomSetting1ListSeetingObj__c</members>
         <members>Account</members>
-        <members>Account_Profile_Setting__c</members>
-        <members>Account_Profile__c</members>
         <members>Asset</members>
-        <members>AutoRABITAPP__c</members>
-        <members>CSlabelacc1Obj__c</members>
         <members>Campaign</members>
         <members>Case</members>
-        <members>College__c</members>
         <members>Contact</members>
-        <members>CustomSettingListType1Obj__c</members>
-        <members>CustomSettingObjectInfomartionStorag__c</members>
-        <members>CustomSettingsObj1__c</members>
-        <members>Emp2__c</members>
-        <members>Emp__c</members>
-        <members>Hierarchy_CS__c</members>
-        <members>HistoryTestObj__c</members>
-        <members>InstallationObj__c</members>
+        <members>CustomSettingTestObj12_c__c</members>
+        <members>LanguagesKnown__c</members>
+        <members>Languages__c</members>
         <members>Lead</members>
-        <members>OBILLSwitchesObj__c</members>
-        <members>OnlineSalesKeyObj2__c</members>
-        <members>OnlineSalesKeyObj__c</members>
+        <members>Multipicklist__c</members>
+        <members>New_Custom_Object__c</members>
         <members>Opportunity</members>
         <members>Order</members>
-        <members>Pass1__c</members>
-        <members>Pass2__c</members>
-        <members>Pass3__c</members>
-        <members>PrivateCustomSettingObj__c</members>
-        <members>QuickInfoObj__c</members>
-        <members>SObj1__c</members>
-        <members>Single_Quote_Obj__c</members>
         <members>Student__c</members>
-        <members>Test1234__c</members>
         <members>User</members>
-        <members>Visitor__c</members>
-        <members>commonObj__c</members>
-        <members>safasf_test_obj__c</members>
-        <members>stdobjapi__c</members>
+        <members>mulpicklist__c</members>
+        <members>multilabel__c</members>
+        <members>myaccount__c</members>
+        <members>teachers__c</members>
         <name>SharingRules</name>
     </types>
     <types>
@@ -1697,61 +1136,10 @@
         <name>StandardValueSet</name>
     </types>
     <types>
-        <members>PublicSttacResource1</members>
-        <members>SiteSamples</members>
-        <name>StaticResource</name>
-    </types>
-    <types>
-        <members>ChildTerritoryTest2</members>
-        <members>TerritoryTest1</members>
-        <name>Territory2</name>
-    </types>
-    <types>
-        <members>TerritoryModelTest1</members>
-        <name>Territory2Model</name>
-    </types>
-    <types>
-        <members>TrModel1Rule1</members>
-        <name>Territory2Rule</name>
-    </types>
-    <types>
-        <members>TerritoryType4</members>
-        <name>Territory2Type</name>
-    </types>
-    <types>
-        <members>EswarCom.Customer_Members</members>
-        <members>EswarCom.Members_without_contribution</members>
-        <members>EswarCom.Partner_and_Customer_members</members>
-        <name>UserCriteria</name>
-    </types>
-    <types>
-        <members>HistoryTestObj__c.ValidationRuleTest1</members>
-        <name>ValidationRule</name>
-    </types>
-    <types>
         <members>Account.Billing</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
         <members>Case.UpsellCrosssellOpportunity</members>
         <members>Opportunity.DeliveryStatus</members>
-        <members>Opportunity.Generate_Contract</members>
-        <members>Opportunity.Generate_Order</members>
-        <members>Opportunity.Generate_Order_Contract</members>
-        <members>Student__c.sweblink1</members>
         <name>WebLink</name>
-    </types>
-    <types>
-        <members>Case.case_failed_alert</members>
-        <name>WorkflowAlert</name>
-    </types>
-    <types>
-        <members>Account.AccRule1Task1</members>
-        <members>Account.Revenue_Update</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-    <types>
-        <members>Account.Acc Rules</members>
-        <members>Account.AccRule1</members>
-        <members>Case.CaseTestRule1</members>
-        <name>WorkflowRule</name>
     </types>
 </Package>
