@@ -11,12 +11,15 @@
     <tab>standard-Campaign</tab>
     <tab>standard-Task</tab>
     <tab>standard-Event</tab>
-    <tab>standard-ContentNote</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
     <tab>standard-Feed</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
+    <tab>Student__c</tab>
+    <tab>external_information__x</tab>
+    <tab>New_Custom_Object__c</tab>
+    <tab>CustomSettingTestObj12_c__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
 </CustomApplication>
