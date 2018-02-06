@@ -10,7 +10,6 @@
     <tab>standard-Lead</tab>
     <tab>standard-Task</tab>
     <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Campaign</tab>
@@ -21,7 +20,20 @@
     <tab>standard-Event</tab>
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-Quote</tab>
+    <tab>standard-Forecasting3</tab>
+    <tab>Emp__c</tab>
+    <tab>Emp2__c</tab>
+    <tab>ExObj1__x</tab>
+    <tab>Visitor__c</tab>
+    <tab>ExObj2__x</tab>
+    <tab>ExtObj3__x</tab>
+    <tab>Student__c</tab>
+    <tab>Pass1__c</tab>
+    <tab>Pass2__c</tab>
+    <tab>Pass3__c</tab>
+    <tab>College__c</tab>
+    <tab>SObj1__c</tab>
+    <tab>HistoryTestObj__c</tab>
+    <tab>InstallationObj__c</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

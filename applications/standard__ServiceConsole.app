@@ -173,15 +173,62 @@
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
-    <tab>standard-Knowledge</tab>
-    <tab>Customer_Satisfaction_Survey__c</tab>
-    <tab>lOCALTEST</tab>
+    <tab>Emp__c</tab>
+    <tab>Emp2__c</tab>
+    <tab>ExObj1__x</tab>
+    <tab>Visitor__c</tab>
+    <tab>ExObj2__x</tab>
+    <tab>ExtObj3__x</tab>
+    <tab>Student__c</tab>
+    <tab>Pass1__c</tab>
+    <tab>Pass2__c</tab>
+    <tab>Pass3__c</tab>
+    <tab>College__c</tab>
+    <tab>SObj1__c</tab>
+    <tab>HistoryTestObj__c</tab>
+    <tab>InstallationObj__c</tab>
     <workspaceMappings>
         <mapping>
-            <tab>Customer_Satisfaction_Survey__c</tab>
+            <tab>College__c</tab>
         </mapping>
         <mapping>
-            <tab>lOCALTEST</tab>
+            <tab>Emp2__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Emp__c</tab>
+        </mapping>
+        <mapping>
+            <tab>ExObj1__x</tab>
+        </mapping>
+        <mapping>
+            <tab>ExObj2__x</tab>
+        </mapping>
+        <mapping>
+            <tab>ExtObj3__x</tab>
+        </mapping>
+        <mapping>
+            <tab>HistoryTestObj__c</tab>
+        </mapping>
+        <mapping>
+            <tab>InstallationObj__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Pass1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Pass2__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Pass3__c</tab>
+        </mapping>
+        <mapping>
+            <tab>SObj1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Student__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Visitor__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>
@@ -193,9 +240,6 @@
         <mapping>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
-        </mapping>
-        <mapping>
-            <tab>standard-Knowledge</tab>
         </mapping>
         <mapping>
             <tab>standard-Lead</tab>
