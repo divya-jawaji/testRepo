@@ -3,14 +3,14 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <tab>standard-Chatter</tab>
-    <tab>standard-File</tab>
     <tab>standard-Campaign</tab>
     <tab>standard-Lead</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Customer_Satisfaction_Survey__c</tab>
-    <tab>lOCALTEST</tab>
-    <tab>standard-Quote</tab>
+    <tab>Student__c</tab>
+    <tab>external_information__x</tab>
+    <tab>New_Custom_Object__c</tab>
+    <tab>CustomSettingTestObj12_c__c</tab>
 </CustomApplication>

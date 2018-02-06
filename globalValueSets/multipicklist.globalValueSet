@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>cxvx</fullName>
+        <default>false</default>
+        <label>cxvx</label>
+    </customValue>
+    <customValue>
+        <fullName>schoolNGO</fullName>
+        <default>false</default>
+        <label>schoolNGO</label>
+    </customValue>
+    <description>df</description>
+    <masterLabel>multipicklist</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
