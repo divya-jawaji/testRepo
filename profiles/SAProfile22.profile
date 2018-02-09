@@ -86,7 +86,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>ApexCls01</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ApexTestCodeCoverageClass1</apexClass>
@@ -110,7 +110,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>MyHelloWorld</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>MyWorld</apexClass>
@@ -118,7 +118,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>NewCusomClass</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>NewWelcome</apexClass>
@@ -126,7 +126,7 @@
     </classAccesses>
     <classAccesses>
         <apexClass>NewYearMsg</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ProfileClass2</apexClass>
@@ -138,15 +138,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>SARAccountClass33</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>SaiClass1</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>Sample</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>TestApexClass15</apexClass>
@@ -154,15 +154,15 @@
     </classAccesses>
     <classAccesses>
         <apexClass>Welcome</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WelcomeInfo</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>WelecomeInfo</apexClass>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
     <externalDataSourceAccesses>
@@ -1123,6 +1123,11 @@
         <editable>true</editable>
         <field>Multipicklist__c.M__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>New_Custom_Object__c.AutorabitExtId__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -2331,6 +2336,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableCommunityAppLauncher</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

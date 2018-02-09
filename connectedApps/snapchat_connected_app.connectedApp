@@ -4,6 +4,7 @@
     <label>snapchat connected app</label>
     <oauthConfig>
         <callbackUrl>https://ap4.salesforce.com/app/mgmt/forceconnectedapps/forceAppEdit.apexp</callbackUrl>
+        <consumerKey>3MVG9YDQS5WtC11pGGeg4.pD357i_kvlZMVdGMDk8mSFhj3JG0AOudoc2XhCgTYziqsT.Skjv8FEf6KzKbEC2</consumerKey>
         <scopes>Full</scopes>
     </oauthConfig>
 </ConnectedApp>
