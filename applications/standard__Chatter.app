@@ -7,8 +7,6 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
-    <tab>Student__c</tab>
-    <tab>external_information__x</tab>
+    <tab>Custom_Sync_Object__c</tab>
     <tab>New_Custom_Object__c</tab>
-    <tab>CustomSettingTestObj12_c__c</tab>
 </CustomApplication>

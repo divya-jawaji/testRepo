@@ -16,10 +16,8 @@
     <tab>standard-Feed</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
-    <tab>Student__c</tab>
-    <tab>external_information__x</tab>
+    <tab>Custom_Sync_Object__c</tab>
     <tab>New_Custom_Object__c</tab>
-    <tab>CustomSettingTestObj12_c__c</tab>
     <uiType>Lightning</uiType>
     <utilityBar>LightningSalesConsole_UtilityBar</utilityBar>
 </CustomApplication>

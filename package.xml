@@ -62,6 +62,7 @@
         <name>Community</name>
     </types>
     <types>
+        <members>New_App</members>
         <members>connected_app</members>
         <members>screen_shot</members>
         <members>snapchat_connected_app</members>
@@ -308,6 +309,7 @@
         <members>ContractContactRole.Role</members>
         <members>CustomSettingTestObj12__c.CustomerEmail__c</members>
         <members>CustomSettingTestObj12__c.Description__c</members>
+        <members>Custom_Sync_Object__c.AutorabitExtId__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -444,6 +446,7 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Lead.Address</members>
@@ -483,6 +486,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
+        <members>Metric.OrigMetricId__c</members>
         <members>Multipicklist__c.M__c</members>
         <members>New_Custom_Object__c.AutorabitExtId__c</members>
         <members>Opportunity.AccountId</members>
@@ -670,6 +674,7 @@
         <members>ContractContactRole</members>
         <members>CustomSettingTestObj12__c</members>
         <members>CustomSettingTestObj12_c__c</members>
+        <members>Custom_Sync_Object__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -739,6 +744,7 @@
     </types>
     <types>
         <members>CustomSettingTestObj12_c__c</members>
+        <members>Custom_Sync_Object__c</members>
         <members>New_Custom_Object__c</members>
         <members>Student__c</members>
         <members>external_information__x</members>
@@ -819,6 +825,7 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>CustomSettingTestObj12_c__c-CustomSettingTestObj12%5F%5Fc Layout</members>
+        <members>Custom_Sync_Object__c-Custom_Sync_Object Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordItem-Duplicate Record Item Layout</members>
         <members>DuplicateRecordItem-page layout1</members>
@@ -901,6 +908,7 @@
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
         <members>CustomSettingTestObj12_c__c.All</members>
+        <members>Custom_Sync_Object__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
@@ -929,6 +937,12 @@
         <members>User.AllUsers</members>
         <members>external_information__x.All</members>
         <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.Standard_Account_Match_Rule_v1_0</members>
+        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
+        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
+        <name>MatchingRule</name>
     </types>
     <types>
         <members>PermissionTest11</members>
@@ -1018,6 +1032,8 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
         <members>Student__c.StudentRecord1</members>
         <members>Student__c.StudentRecord2</members>
         <name>RecordType</name>
