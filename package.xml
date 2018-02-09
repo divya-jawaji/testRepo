@@ -110,6 +110,8 @@
         <name>ApprovalProcess</name>
     </types>
     <types>
+        <members>Case.Standard</members>
+        <members>Lead.Standard</members>
         <members>Lead.Web to Lead Routing</members>
         <name>AssignmentRule</name>
     </types>
