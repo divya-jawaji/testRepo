@@ -173,15 +173,7 @@
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
-    <tab>Custom_Sync_Object__c</tab>
-    <tab>New_Custom_Object__c</tab>
     <workspaceMappings>
-        <mapping>
-            <tab>Custom_Sync_Object__c</tab>
-        </mapping>
-        <mapping>
-            <tab>New_Custom_Object__c</tab>
-        </mapping>
         <mapping>
             <tab>standard-Account</tab>
         </mapping>

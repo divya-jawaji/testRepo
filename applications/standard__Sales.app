@@ -15,6 +15,4 @@
     <tab>standard-Product2</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>Custom_Sync_Object__c</tab>
-    <tab>New_Custom_Object__c</tab>
 </CustomApplication>

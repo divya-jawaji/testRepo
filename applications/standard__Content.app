@@ -6,6 +6,4 @@
     <tab>standard-Workspace</tab>
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
-    <tab>Custom_Sync_Object__c</tab>
-    <tab>New_Custom_Object__c</tab>
 </CustomApplication>

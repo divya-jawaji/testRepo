@@ -10,7 +10,6 @@
     <tab>standard-Lead</tab>
     <tab>standard-Task</tab>
     <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
     <tab>standard-Account</tab>
     <tab>standard-Contact</tab>
     <tab>standard-Campaign</tab>
@@ -21,7 +20,6 @@
     <tab>standard-Event</tab>
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-Quote</tab>
+    <tab>standard-Forecasting3</tab>
     <uiType>Lightning</uiType>
 </CustomApplication>

@@ -73,6 +73,7 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
+        <members>standard__LightningSales</members>
         <members>standard__LightningSalesConsole</members>
         <members>standard__LightningService</members>
         <members>standard__Marketing</members>
@@ -652,6 +653,8 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
+        <members>newcustomsettinglabels__c.field_2__c</members>
+        <members>newcustomsettinglabels__c.field_one__c</members>
         <members>screenshot_external__x.picklist123__c</members>
         <name>CustomField</name>
     </types>
@@ -720,6 +723,7 @@
         <members>mulpicklist__c</members>
         <members>multilabel__c</members>
         <members>myaccount__c</members>
+        <members>newcustomsettinglabels__c</members>
         <members>screenshot_external__x</members>
         <members>teachers__c</members>
         <name>CustomObject</name>
@@ -751,7 +755,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Account.Standard_Account_Duplicate_Rule</members>
+        <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+        <members>Lead.Standard_Lead_Duplicate_Rule</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
     </types>
@@ -1005,6 +1012,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
