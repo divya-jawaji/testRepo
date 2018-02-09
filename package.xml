@@ -2,6 +2,10 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>sai</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
+    <types>
         <members>ARApexTest</members>
         <members>ARApexclass234</members>
         <members>ARApexclass2345</members>
@@ -33,16 +37,22 @@
         <members>JsonParserTest</members>
         <members>LoginActivity</members>
         <members>MessageInfo</members>
+        <members>MyHelloWorld</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>MyWorld</members>
         <members>NewAndExistingController</members>
+        <members>NewCusomClass</members>
         <members>NewWelcome</members>
+        <members>NewYearMsg</members>
         <members>OrderFormController</members>
         <members>ProfileClass2</members>
         <members>ProfileTestClass</members>
         <members>QuestionaireImplementationController</members>
+        <members>SARAccountClass33</members>
+        <members>SaiClass1</members>
         <members>SampathTestApex</members>
+        <members>Sample</members>
         <members>SampleCalloutTest</members>
         <members>SampleW3</members>
         <members>ScopeInformationController</members>
@@ -54,6 +64,9 @@
         <members>TestWeber</members>
         <members>Testeeeeee</members>
         <members>WebtoCaseController</members>
+        <members>Welcome</members>
+        <members>WelcomeInfo</members>
+        <members>WelecomeInfo</members>
         <members>testHttpCalloutMock</members>
         <members>theController</members>
         <name>ApexClass</name>
@@ -172,6 +185,7 @@
     </types>
     <types>
         <members>Internal Ideas</members>
+        <members>Internal Zone</members>
         <name>Community</name>
     </types>
     <types>
@@ -210,15 +224,22 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Account.Active__c</members>
         <members>Account.AutorabitExtId__c</members>
         <members>Account.Business_Unit__c</members>
         <members>Account.Competitors__c</members>
+        <members>Account.CustomerPriority__c</members>
         <members>Account.LinkedIn_URL__c</members>
+        <members>Account.NumberofLocations__c</members>
         <members>Account.Other_Competitors__c</members>
         <members>Account.Primary_Email__c</members>
         <members>Account.Record_Owner_From_Vtiger__c</members>
+        <members>Account.SLAExpirationDate__c</members>
+        <members>Account.SLASerialNumber__c</members>
+        <members>Account.SLA__c</members>
         <members>Account.Secondary_Email__c</members>
         <members>Account.Secondary_Phone__c</members>
+        <members>Account.UpsellOpportunity__c</members>
         <members>Activity.Count_of_Events__c</members>
         <members>Activity.Count_of_Tasks__c</members>
         <members>Activity.Test_del__c</members>
@@ -229,16 +250,22 @@
         <members>Case.CaseType__c</members>
         <members>Case.Closure_Days__c</members>
         <members>Case.Code_C_Required__c</members>
+        <members>Case.EngineeringReqNumber__c</members>
         <members>Case.Final_Resolution__c</members>
         <members>Case.Login_Url__c</members>
         <members>Case.Open_A_Assignment__c</members>
         <members>Case.Open_Since__c</members>
+        <members>Case.PotentialLiability__c</members>
+        <members>Case.Product__c</members>
         <members>Case.Remdine_Case_No__c</members>
+        <members>Case.SLAViolation__c</members>
         <members>Case.Solution_Text__c</members>
         <members>Case.Support_Engineer__c</members>
         <members>Case.Support_Shift_Type__c</members>
         <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Contact_Id__c</members>
+        <members>Contact.Languages__c</members>
+        <members>Contact.Level__c</members>
         <members>Contact.Linkedin__c</members>
         <members>Contact.Mc_Subscriber_Status__c</members>
         <members>Contact.Reference__c</members>
@@ -268,6 +295,7 @@
         <members>Lead.Business_Unit__c</members>
         <members>Lead.Comments__c</members>
         <members>Lead.Competitor__c</members>
+        <members>Lead.CurrentGenerators__c</members>
         <members>Lead.Designation__c</members>
         <members>Lead.Implementation_Questionnaire__c</members>
         <members>Lead.Infrastructure__c</members>
@@ -279,9 +307,13 @@
         <members>Lead.Mc_Subscriber_Status__c</members>
         <members>Lead.No_of_Attachments__c</members>
         <members>Lead.No_of_Users__c</members>
+        <members>Lead.NumberofLocations__c</members>
         <members>Lead.Other_Competitors__c</members>
+        <members>Lead.Primary__c</members>
+        <members>Lead.ProductInterest__c</members>
         <members>Lead.Record_Owner__c</members>
         <members>Lead.Recordtype__c</members>
+        <members>Lead.SICCode__c</members>
         <members>Lead.Secondary_Email__c</members>
         <members>Lead.Type__c</members>
         <members>LoginData__c.InstanceURL__c</members>
@@ -296,13 +328,18 @@
         <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.Competitors__c</members>
         <members>Opportunity.Contact_Name__c</members>
+        <members>Opportunity.CurrentGenerators__c</members>
+        <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.Is_eligibile_for_Premier_support__c</members>
         <members>Opportunity.LinkedIn_URL__c</members>
+        <members>Opportunity.MainCompetitors__c</members>
         <members>Opportunity.Opportunity_Number__c</members>
         <members>Opportunity.Opportunity_Type__c</members>
+        <members>Opportunity.OrderNumber__c</members>
         <members>Opportunity.Other_Competitors__c</members>
         <members>Opportunity.Playground_Set__c</members>
         <members>Opportunity.Pre_SalesEngineer__c</members>
+        <members>Opportunity.TrackingNumber__c</members>
         <members>Opportunity.Trial_End_Date__c</members>
         <members>Opportunity.Trial_Start_Date__c</members>
         <members>Opportunity.Version_Control_Type__c</members>
@@ -482,6 +519,7 @@
         <members>unfiled$public/Lead_Notification_Web_to_Lead</members>
         <members>unfiled$public/LeadsNewassignmentnotificationSAMPLE</members>
         <members>unfiled$public/LeadsWebtoLeademailresponseSAMPLE</members>
+        <members>unfiled$public/MarketingProductInquiryResponse</members>
         <members>unfiled$public/Mass_Email_Leads</members>
         <members>unfiled$public/Mass_Email_Leads_Brad</members>
         <members>unfiled$public/Mass_Email_Leads_Navneeth</members>
@@ -498,7 +536,16 @@
         <members>unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE</members>
         <members>unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE</members>
         <members>unfiled$public/SUPPORTWebtoCaseemailresponseSAMPLE</members>
+        <members>unfiled$public/SalesNewCustomerEmail</members>
         <members>unfiled$public/Second_Activation_Email</members>
+        <members>unfiled$public/SupportCaseAssignmentNotification</members>
+        <members>unfiled$public/SupportCaseCreatedPhoneInquiries</members>
+        <members>unfiled$public/SupportCaseCreatedWebInquiries</members>
+        <members>unfiled$public/SupportCaseResponse</members>
+        <members>unfiled$public/SupportEscalatedCaseNotification</members>
+        <members>unfiled$public/SupportEscalatedCaseReassignment</members>
+        <members>unfiled$public/SupportSelfServiceNewLoginandPassword</members>
+        <members>unfiled$public/SupportSelfServiceResetPassword</members>
         <members>unfiled$public/Supportacknowledgement</members>
         <members>unfiled$public/Test_Convert</members>
         <members>unfiled$public/Trial_Activation</members>
@@ -511,6 +558,7 @@
     </types>
     <types>
         <members>Case.1</members>
+        <members>Case.Standard</members>
         <name>EscalationRule</name>
     </types>
     <types>
@@ -570,6 +618,7 @@
         <name>HomePageComponent</name>
     </types>
     <types>
+        <members>DE Default</members>
         <members>Dashboard Home Page Default</members>
         <members>Techsophy Layout</members>
         <name>HomePageLayout</name>
@@ -583,11 +632,17 @@
         <name>InstalledPackage</name>
     </types>
     <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
         <members>Base64__c-Base64 Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
+        <members>Case-Case %28Marketing%29 Layout</members>
+        <members>Case-Case %28Sales%29 Layout</members>
+        <members>Case-Case %28Support%29 Layout</members>
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CollaborationGroup-Group Layout</members>
@@ -616,15 +671,23 @@
         <members>Languages__c-fourtycharecterpagelayoutcharacter%5F%5F%5F%5Fassignment%5F%5F%5F%5F%5F%5F%5F%5F%5F%5F_layout</members>
         <members>Languages__c-twentyletterpagelayout</members>
         <members>Lead-AutoRABIT Lead Layout</members>
+        <members>Lead-Lead %28Marketing%29 Layout</members>
+        <members>Lead-Lead %28Sales%29 Layout</members>
+        <members>Lead-Lead %28Support%29 Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LoginData__c-LoginData Layout</members>
         <members>Macro-Macro Layout</members>
         <members>Multipicklist__c-Multipicklist Layout</members>
         <members>New_Custom_Object__c-New_Custom_Object Layout</members>
         <members>Opportunity-BPM Opportunity  Layout</members>
+        <members>Opportunity-Opportunity %28Marketing%29 Layout</members>
+        <members>Opportunity-Opportunity %28Sales%29 Layout</members>
+        <members>Opportunity-Opportunity %28Support%29 Layout</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>Order-Order Layout</members>
         <members>OrderDetails__x-OrderDetails Layout</members>
+        <members>OrderItem-Order Product Layout</members>
         <members>Order__c-Order Layout</members>
         <members>Orders__x-Orders Layout</members>
         <members>PaymentMechanisms__x-PaymentMechanisms Layout</members>
@@ -680,7 +743,10 @@
         <members>Account.AutoRABIT_Pipeline</members>
         <members>Account.BPM_Accounts</members>
         <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
         <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
+        <members>Activity.AllActivities</members>
         <members>Activity.MyActivities</members>
         <members>Activity.MyDelegatedActivities</members>
         <members>Activity.MyTeamsActivities</members>
@@ -689,13 +755,19 @@
         <members>Asset.AllAssets</members>
         <members>Campaign.AllActiveCampaigns</members>
         <members>Campaign.MyActiveCampaigns</members>
+        <members>Case.AllClosedCases</members>
+        <members>Case.AllOpenCases</members>
         <members>Case.Closed_Cases</members>
         <members>Case.Deployment_Team_Case</members>
+        <members>Case.MyCases</members>
+        <members>Case.MyOpenCases</members>
         <members>Case.Open_Cases</members>
         <members>Contact.AR_Contacts_V</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BPM_Contacts</members>
         <members>Contact.BirthdaysThisMonth</members>
+        <members>Contact.MyContacts</members>
+        <members>Contact.NewLastWeek</members>
         <members>Contact.NewThisWeek</members>
         <members>Contract.AllActivatedContracts</members>
         <members>Contract.AllContracts</members>
@@ -707,22 +779,36 @@
         <members>CustomSettingTestObj12_c__c.All</members>
         <members>Customer_Satisfaction_Survey__c.All</members>
         <members>Expense__c.All</members>
+        <members>Lead.AllOpenLeads</members>
         <members>Lead.AutoRABIT_Open_Leads</members>
         <members>Lead.BPM_Leads</members>
         <members>Lead.Consulting_Leads</members>
         <members>Lead.Emerging_Technologies</members>
         <members>Lead.Migile_Leads</members>
+        <members>Lead.MyUnreadLeads</members>
         <members>Lead.My_Leads</members>
         <members>Lead.Social_Champ_Leads</members>
+        <members>Lead.TodaysLeads</members>
+        <members>Lead.ViewCustom1</members>
+        <members>Lead.ViewCustom2</members>
         <members>New_Custom_Object__c.All</members>
+        <members>Opportunity.AllOpportunities</members>
         <members>Opportunity.BPM_Opportunities</members>
         <members>Opportunity.Closed_Won_View</members>
         <members>Opportunity.ClosingNextMonth</members>
         <members>Opportunity.ClosingThisMonth</members>
         <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.MyOpportunities</members>
+        <members>Opportunity.NewLastWeek</members>
+        <members>Opportunity.NewThisWeek</members>
         <members>Opportunity.Opportunities_AR_Current</members>
         <members>Opportunity.Pre_Sales_ROW</members>
         <members>Opportunity.Pre_Sales_USA</members>
+        <members>Opportunity.Private</members>
+        <members>Opportunity.Won</members>
+        <members>Order.AllActivatedOrders</members>
+        <members>Order.AllDraftOrders</members>
+        <members>Order.AllOrders</members>
         <members>Order__c.All</members>
         <members>Product2.AllProducts</members>
         <members>Professional__c.All</members>
@@ -840,6 +926,7 @@
         <members>Case.SendEmail</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
+        <members>FeedItem.NewTaskFromFeedItem</members>
         <members>LogACall</members>
         <members>NewAccount</members>
         <members>NewCase</members>
@@ -853,9 +940,13 @@
         <members>Quote.SendEmail</members>
         <members>SendEmail</members>
         <members>Task.Defer</members>
+        <members>Task.Defer_0</members>
         <members>Task.EditDescription</members>
+        <members>Task.EditDescription_0</members>
         <members>Task.UpdatePriority</members>
+        <members>Task.UpdatePriority_0</members>
         <members>Task.UpdateStatus</members>
+        <members>Task.UpdateStatus_0</members>
         <name>QuickAction</name>
     </types>
     <types>
@@ -883,6 +974,7 @@
         <name>RecordType</name>
     </types>
     <types>
+        <members>ApexDevNet</members>
         <members>SampathLocal</members>
         <members>Test</members>
         <members>d3js</members>
@@ -974,11 +1066,29 @@
         <members>AutoRABIT</members>
         <members>AutoRABIT_Sales_Manager</members>
         <members>BPM_Manager</members>
+        <members>CEO</members>
+        <members>CFO</members>
+        <members>COO</members>
+        <members>ChannelSalesTeam</members>
         <members>Consulting</members>
         <members>Consulting_Manager</members>
+        <members>CustomerSupportInternational</members>
+        <members>CustomerSupportNorthAmerica</members>
+        <members>DirectorChannelSales</members>
+        <members>DirectorDirectSales</members>
+        <members>EasternSalesTeam</members>
+        <members>InstallationRepairServices</members>
+        <members>MarketingTeam</members>
         <members>Migile</members>
+        <members>SVPCustomerServiceSupport</members>
+        <members>SVPHumanResources</members>
+        <members>SVPSalesMarketing</members>
         <members>Sales_Rep</members>
         <members>Techsophy</members>
+        <members>VPInternationalSales</members>
+        <members>VPMarketing</members>
+        <members>VPNorthAmericanSales</members>
+        <members>WesternSalesTeam</members>
         <name>Role</name>
     </types>
     <types>
@@ -1022,6 +1132,7 @@
     </types>
     <types>
         <members>Account.AltavistaNews</members>
+        <members>Account.Billing</members>
         <members>Account.GoogleMaps</members>
         <members>Account.GoogleNews</members>
         <members>Account.GoogleSearch</members>
@@ -1029,6 +1140,7 @@
         <members>Account.YahooMaps</members>
         <members>Campaign.ViewAllCampaignMembers</members>
         <members>Campaign.ViewCampaignInfluenceReport</members>
+        <members>Case.UpsellCrosssellOpportunity</members>
         <members>Contact.GoogleMaps</members>
         <members>Contact.GoogleSearch</members>
         <members>Contact.SendGmail</members>
@@ -1041,6 +1153,7 @@
         <members>Lead.HooversProfile</members>
         <members>Lead.SendGmail</members>
         <members>Lead.YahooMaps</members>
+        <members>Opportunity.DeliveryStatus</members>
         <members>Opportunity.Scope_Information_Document</members>
         <name>WebLink</name>
     </types>
