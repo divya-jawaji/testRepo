@@ -321,14 +321,7 @@
     <listViews>
         <fullName>AllAccounts</fullName>
         <columns>ACCOUNT.NAME</columns>
-        <columns>ACCOUNT.SITE</columns>
-        <columns>ACCOUNT.ADDRESS1_STATE</columns>
-        <columns>ACCOUNT.PHONE1</columns>
-        <columns>ACCOUNT.TYPE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
-        <columns>CORE.USERS.FIRST_NAME</columns>
-        <columns>Record_Owner_From_Vtiger__c</columns>
-        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ACCOUNT_NUMBER</columns>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
     </listViews>
@@ -386,16 +379,6 @@
     </listViews>
     <listViews>
         <fullName>MyAccounts</fullName>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>ACCOUNT.PHONE1</columns>
-        <columns>Primary_Email__c</columns>
-        <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
-        <columns>ACCOUNT.ADDRESS1_CITY</columns>
-        <columns>ACCOUNT.ADDRESS1_STATE</columns>
-        <columns>ACCOUNT.LAST_UPDATE</columns>
-        <columns>ACCOUNT.CREATED_DATE</columns>
-        <columns>CORE.USERS.FIRST_NAME</columns>
-        <columns>CREATEDBY_USER.ALIAS</columns>
         <filterScope>Mine</filterScope>
         <label>My Accounts</label>
     </listViews>
@@ -411,12 +394,6 @@
     </listViews>
     <listViews>
         <fullName>NewThisWeek</fullName>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>ACCOUNT.SITE</columns>
-        <columns>ACCOUNT.ADDRESS1_STATE</columns>
-        <columns>ACCOUNT.PHONE1</columns>
-        <columns>ACCOUNT.TYPE</columns>
-        <columns>CORE.USERS.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>ACCOUNT.CREATED_DATE</field>

@@ -274,6 +274,8 @@
         <members>Contact.Support_Start_Date__c</members>
         <members>Contact.multi_field1__c</members>
         <members>Contact.multipicklist_label__c</members>
+        <members>CustomSettingTestObj12__c.CustomerEmail__c</members>
+        <members>CustomSettingTestObj12__c.Description__c</members>
         <members>Customer_Satisfaction_Survey__c.AutorabitExtId__c</members>
         <members>Customer_Satisfaction_Survey__c.Comments__c</members>
         <members>Customer_Satisfaction_Survey__c.Satisfaction__c</members>
@@ -405,11 +407,14 @@
         <members>completeLogin__c.LoginScreenURL__c</members>
         <members>completeLogin__c.OrgName__c</members>
         <members>completeLogin__c.UserEmail__c</members>
+        <members>newcustomsettinglabels__c.field_one__c</members>
+        <members>newcustomsettinglabels__c.field_two__c</members>
         <members>screenshot_external__x.picklist123__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Base64__c</members>
+        <members>CustomSettingTestObj12__c</members>
         <members>CustomSettingTestObj12_c__c</members>
         <members>Customer_Satisfaction_Survey__c</members>
         <members>Expense__c</members>
@@ -434,6 +439,7 @@
         <members>mulpicklist__c</members>
         <members>multilabel__c</members>
         <members>myaccount__c</members>
+        <members>newcustomsettinglabels__c</members>
         <members>screenshot_external__x</members>
         <members>teachers__c</members>
         <name>CustomObject</name>
@@ -491,7 +497,10 @@
         <name>Document</name>
     </types>
     <types>
+        <members>Account.Standard_Account_Duplicate_Rule</members>
+        <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
+        <members>Lead.Standard_Lead_Duplicate_Rule</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
     </types>
@@ -922,6 +931,7 @@
         <name>Queue</name>
     </types>
     <types>
+        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>Case.SendEmail</members>
         <members>CollaborationGroup.NewGroupMember</members>

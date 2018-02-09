@@ -6,6 +6,4 @@
     <tab>standard-Workspace</tab>
     <tab>standard-ContentSearch</tab>
     <tab>standard-ContentSubscriptions</tab>
-    <tab>Customer_Satisfaction_Survey__c</tab>
-    <tab>lOCALTEST</tab>
 </CustomApplication>

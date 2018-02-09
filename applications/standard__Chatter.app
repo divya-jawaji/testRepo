@@ -7,6 +7,4 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
-    <tab>Customer_Satisfaction_Survey__c</tab>
-    <tab>lOCALTEST</tab>
 </CustomApplication>
