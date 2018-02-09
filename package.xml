@@ -3,13 +3,24 @@
     <version>39.0</version>
     <types>
         <members>ARApexTest</members>
+        <members>ARApexclass234</members>
+        <members>ARApexclass2345</members>
         <members>ARTestSample2</members>
+        <members>Ac3</members>
+        <members>Ac4</members>
+        <members>AcccountARTest1</members>
         <members>AccountREceivablespage</members>
         <members>AccountSelectClassController</members>
+        <members>ApexClass15</members>
+        <members>ApexCls01</members>
+        <members>ApexTestCodeCoverageClass1</members>
+        <members>Apex_Class1</members>
+        <members>AppClsProfile1</members>
         <members>ArAppSingleTon</members>
         <members>ArAppWeber</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
+        <members>ClassOne</members>
         <members>DeploymentActivity</members>
         <members>EZJSONParserTest</members>
         <members>EmailAttachment</members>
@@ -21,10 +32,15 @@
         <members>JSONTestClass</members>
         <members>JsonParserTest</members>
         <members>LoginActivity</members>
+        <members>MessageInfo</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
+        <members>MyWorld</members>
         <members>NewAndExistingController</members>
+        <members>NewWelcome</members>
         <members>OrderFormController</members>
+        <members>ProfileClass2</members>
+        <members>ProfileTestClass</members>
         <members>QuestionaireImplementationController</members>
         <members>SampathTestApex</members>
         <members>SampleCalloutTest</members>
@@ -34,6 +50,7 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>TestApexClass15</members>
         <members>TestWeber</members>
         <members>Testeeeeee</members>
         <members>WebtoCaseController</members>
@@ -163,6 +180,9 @@
     <types>
         <members>SF_AutoRABIT1</members>
         <members>Single_Sign_test</members>
+        <members>connected_app</members>
+        <members>screen_shot</members>
+        <members>snapchat_connected_app</members>
         <name>ConnectedApp</name>
     </types>
     <types>
@@ -188,6 +208,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.Business_Unit__c</members>
         <members>Account.Competitors__c</members>
         <members>Account.LinkedIn_URL__c</members>
@@ -202,6 +223,7 @@
         <members>Case.Assigned_On__c</members>
         <members>Case.Assigned_Status__c</members>
         <members>Case.Assigned_To__c</members>
+        <members>Case.AutorabitExtId__c</members>
         <members>Case.CaseType__c</members>
         <members>Case.Closure_Days__c</members>
         <members>Case.Code_C_Required__c</members>
@@ -213,6 +235,7 @@
         <members>Case.Solution_Text__c</members>
         <members>Case.Support_Engineer__c</members>
         <members>Case.Support_Shift_Type__c</members>
+        <members>Contact.AutorabitExtId__c</members>
         <members>Contact.Contact_Id__c</members>
         <members>Contact.Linkedin__c</members>
         <members>Contact.Mc_Subscriber_Status__c</members>
@@ -220,6 +243,8 @@
         <members>Contact.Secondary_Email__c</members>
         <members>Contact.Support_End_Date__c</members>
         <members>Contact.Support_Start_Date__c</members>
+        <members>Contact.multi_field1__c</members>
+        <members>Contact.multipicklist_label__c</members>
         <members>Customer_Satisfaction_Survey__c.AutorabitExtId__c</members>
         <members>Customer_Satisfaction_Survey__c.Comments__c</members>
         <members>Customer_Satisfaction_Survey__c.Satisfaction__c</members>
@@ -263,6 +288,7 @@
         <members>MC4SF__MC_Subscriber__c.Count_of_Opens__c</members>
         <members>MC4SF__MC_Subscriber__c.Subscriber_Domain__c</members>
         <members>Metric.OrigMetricId__c</members>
+        <members>Multipicklist__c.M__c</members>
         <members>Opportunity.Address_Info__c</members>
         <members>Opportunity.Age_del__c</members>
         <members>Opportunity.AutorabitExtId__c</members>
@@ -278,12 +304,23 @@
         <members>Opportunity.Trial_End_Date__c</members>
         <members>Opportunity.Trial_Start_Date__c</members>
         <members>Opportunity.Version_Control_Type__c</members>
+        <members>OrderDetails__x.orderID__c</members>
+        <members>OrderDetails__x.orderLine__c</members>
+        <members>OrderDetails__x.product__c</members>
+        <members>OrderDetails__x.quantity__c</members>
+        <members>OrderDetails__x.unitPrice__c</members>
         <members>Order__c.Account__c</members>
         <members>Order__c.Product__c</members>
         <members>Order__c.Quantity__c</members>
         <members>Order__c.Quote__c</members>
         <members>Order__c.Status__c</members>
         <members>Order__c.TOMID__c</members>
+        <members>Orders__x.customerID__c</members>
+        <members>Orders__x.orderDate__c</members>
+        <members>Orders__x.orderID__c</members>
+        <members>Orders__x.shippedDate__c</members>
+        <members>PaymentMechanisms__x.id__c</members>
+        <members>PaymentMechanisms__x.name__c</members>
         <members>Professional__c.Customer_Success_User__c</members>
         <members>Professional__c.Hours_spent__c</members>
         <members>Professional__c.Opportunity__c</members>
@@ -319,6 +356,9 @@
         <members>Scope_Poc_Information__c.Poc_Start_Date__c</members>
         <members>Scope_Poc_Information__c.Scope__c</members>
         <members>Scope_Poc_Information__c.sign_off_Criteria__c</members>
+        <members>Student__c.StudentCity__c</members>
+        <members>Student__c.StudentInfo__c</members>
+        <members>Student__c.StudentMobile__c</members>
         <members>User.Count__c</members>
         <members>User.Link_to_User__c</members>
         <members>completeLogin__c.AgentID__c</members>
@@ -326,21 +366,37 @@
         <members>completeLogin__c.LoginScreenURL__c</members>
         <members>completeLogin__c.OrgName__c</members>
         <members>completeLogin__c.UserEmail__c</members>
+        <members>screenshot_external__x.picklist123__c</members>
         <name>CustomField</name>
     </types>
     <types>
         <members>Base64__c</members>
+        <members>CustomSettingTestObj12_c__c</members>
         <members>Customer_Satisfaction_Survey__c</members>
         <members>Expense__c</members>
         <members>FAQ__kav</members>
         <members>IncomingEmail__c</members>
         <members>JSONTestObj__c</members>
+        <members>LanguagesKnown__c</members>
+        <members>Languages__c</members>
         <members>LoginData__c</members>
+        <members>Multipicklist__c</members>
+        <members>New_Custom_Object__c</members>
+        <members>OrderDetails__x</members>
         <members>Order__c</members>
+        <members>Orders__x</members>
+        <members>PaymentMechanisms__x</members>
         <members>Professional__c</members>
         <members>Questionnaire_Implementation__c</members>
         <members>Scope_Poc_Information__c</members>
+        <members>Student__c</members>
         <members>completeLogin__c</members>
+        <members>external_information__x</members>
+        <members>mulpicklist__c</members>
+        <members>multilabel__c</members>
+        <members>myaccount__c</members>
+        <members>screenshot_external__x</members>
+        <members>teachers__c</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -357,14 +413,18 @@
     </types>
     <types>
         <members>AR_Test_App</members>
+        <members>CustomSettingTestObj12_c__c</members>
         <members>Customer_Satisfaction_Survey__c</members>
         <members>Expense__c</members>
+        <members>New_Custom_Object__c</members>
         <members>Professional__c</members>
         <members>Questionnaire_Implementation__c</members>
         <members>SP</members>
         <members>Samplr_Test</members>
         <members>Scope_Poc_Information__c</members>
+        <members>Student__c</members>
         <members>TripForce</members>
+        <members>external_information__x</members>
         <members>lOCALTEST</members>
         <name>CustomTab</name>
     </types>
@@ -452,6 +512,15 @@
         <name>EscalationRule</name>
     </types>
     <types>
+        <members>OrderDB</members>
+        <name>ExternalDataSource</name>
+    </types>
+    <types>
+        <members>screenshot_external__x.picklist12</members>
+        <members>screenshot_external__x.picklist23</members>
+        <name>FieldSet</name>
+    </types>
+    <types>
         <members>AR_Test_App</members>
         <members>LightningSalesConsole_UtilityBar</members>
         <members>LightningService_UtilityBar</members>
@@ -478,6 +547,13 @@
         <members>Map_opportunity_and_Lead_Record_Types</members>
         <members>flow2</members>
         <name>FlowDefinition</name>
+    </types>
+    <types>
+        <members>GlobalPickList_Cities</members>
+        <members>multilabel</members>
+        <members>multipicklist</members>
+        <members>picklist1</members>
+        <name>GlobalValueSet</name>
     </types>
     <types>
         <members>AutoRABIT_Sales_Group</members>
@@ -513,10 +589,16 @@
         <members>Case-Case Layout</members>
         <members>CaseClose-Close Case Layout</members>
         <members>CollaborationGroup-Group Layout</members>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
         <members>Contact-Contact Layout</members>
+        <members>ContentVersion-Content Version Layout</members>
         <members>ContentVersion-General</members>
         <members>Contract-Contract Layout</members>
+        <members>CustomSettingTestObj12_c__c-CustomSettingTestObj12%5F%5Fc Layout</members>
         <members>Customer_Satisfaction_Survey__c-Customer Satisfaction Survey Layout</members>
+        <members>DuplicateRecordItem-page layout1</members>
         <members>DuplicateRecordSet-Duplicate Record Set Layout</members>
         <members>EmailMessage-Email Message Layout - Email-to-Case</members>
         <members>Event-Event Layout</members>
@@ -527,14 +609,23 @@
         <members>Idea-Idea Layout</members>
         <members>IncomingEmail__c-IncomingEmail Layout</members>
         <members>JSONTestObj__c-JSONTestObj Layout</members>
+        <members>LanguagesKnown__c-LanguagesKnown Layout</members>
+        <members>Languages__c-Language Layout</members>
+        <members>Languages__c-fourtycharecterpagelayoutcharacter%5F%5F%5F%5Fassignment%5F%5F%5F%5F%5F%5F%5F%5F%5F%5F_layout</members>
+        <members>Languages__c-twentyletterpagelayout</members>
         <members>Lead-AutoRABIT Lead Layout</members>
         <members>Lead-Lead Layout</members>
         <members>LoginData__c-LoginData Layout</members>
         <members>Macro-Macro Layout</members>
+        <members>Multipicklist__c-Multipicklist Layout</members>
+        <members>New_Custom_Object__c-New_Custom_Object Layout</members>
         <members>Opportunity-BPM Opportunity  Layout</members>
         <members>Opportunity-Opportunity Layout</members>
         <members>OpportunityLineItem-Opportunity Product Layout</members>
+        <members>OrderDetails__x-OrderDetails Layout</members>
         <members>Order__c-Order Layout</members>
+        <members>Orders__x-Orders Layout</members>
+        <members>PaymentMechanisms__x-PaymentMechanisms Layout</members>
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
@@ -549,6 +640,9 @@
         <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
+        <members>Student__c-Student Layout</members>
+        <members>Student__c-StudentLayOut2</members>
+        <members>Student__c-StudentLayOut3</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
@@ -560,6 +654,12 @@
         <members>WorkBadgeDefinition-Badge Layout 192</members>
         <members>WorkThanks-Thanks Layout</members>
         <members>completeLogin__c-CompleteLoginData Layout</members>
+        <members>external_information__x-external_information Layout</members>
+        <members>mulpicklist__c-mulpicklist Layout</members>
+        <members>multilabel__c-multilabel Layout</members>
+        <members>myaccount__c-myaccount Layout</members>
+        <members>screenshot_external__x-screenshot_externals Layout</members>
+        <members>teachers__c-teacher Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -602,6 +702,7 @@
         <members>Contract.MyActivatedContracts</members>
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
+        <members>CustomSettingTestObj12_c__c.All</members>
         <members>Customer_Satisfaction_Survey__c.All</members>
         <members>Expense__c.All</members>
         <members>Lead.AutoRABIT_Open_Leads</members>
@@ -611,6 +712,7 @@
         <members>Lead.Migile_Leads</members>
         <members>Lead.My_Leads</members>
         <members>Lead.Social_Champ_Leads</members>
+        <members>New_Custom_Object__c.All</members>
         <members>Opportunity.BPM_Opportunities</members>
         <members>Opportunity.Closed_Won_View</members>
         <members>Opportunity.ClosingNextMonth</members>
@@ -626,9 +728,11 @@
         <members>Scope_Poc_Information__c.All</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
+        <members>Student__c.All</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
         <members>User.AllUsers</members>
+        <members>external_information__x.All</members>
         <name>ListView</name>
     </types>
     <types>
@@ -639,9 +743,22 @@
     </types>
     <types>
         <members>LeelaMarket_Developer</members>
+        <members>PermissionTest11</members>
+        <members>Permission_Set_6_org1</members>
+        <members>Permission_Set_7_org1</members>
+        <members>Permission_set_1_org1</members>
+        <members>Permission_set_2_org1</members>
+        <members>Permission_set_3_org1</members>
+        <members>Permission_set_4_org1</members>
+        <members>Permission_set_5_org1</members>
         <members>Sample_Developer</members>
         <members>Work_com_Admin_User</members>
         <members>Work_com_Standard_User</members>
+        <members>org1_set_2</members>
+        <members>org1_set_3</members>
+        <members>org_1_set_1</members>
+        <members>temp_permissionset</members>
+        <members>temp_permissionset2</members>
         <members>test</members>
         <members>test2</members>
         <members>test4</members>
@@ -653,7 +770,11 @@
         <name>Portal</name>
     </types>
     <types>
+        <members>ATESTProfile1</members>
         <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Authenticated Website</members>
         <members>AutoRABIT Sales</members>
         <members>Chatter External User</members>
         <members>Chatter Free User</members>
@@ -661,23 +782,39 @@
         <members>Chatter Only User</members>
         <members>Content Only User</members>
         <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
         <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
         <members>Customer Community User</members>
         <members>Customer Portal Manager Custom</members>
         <members>Customer Portal Manager Standard</members>
         <members>Customer Portal Profile</members>
         <members>CustomerManager</members>
         <members>CustomerUser</members>
+        <members>External Identity User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
         <members>Force%2Ecom - One App User</members>
         <members>Gold Partner User</members>
         <members>Guest License User</members>
         <members>High Volume Customer Portal User</members>
+        <members>HighVolumePortal</members>
+        <members>Identity User</members>
         <members>Implementation Questionnaire Profile</members>
         <members>Knowledge Only User</members>
         <members>MarketingProfile</members>
+        <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>
         <members>Partner Community User</members>
+        <members>PlatformPortal</members>
         <members>ReadOnly</members>
+        <members>SAProfile22</members>
+        <members>SaProfile1</members>
+        <members>Silver Partner User</members>
         <members>Siteforce Only User</members>
         <members>SolutionManager</members>
         <members>Standard</members>
@@ -687,6 +824,7 @@
         <members>Techsophy Consulting Profile</members>
         <members>Work%2Ecom Only User</members>
         <members>logticket Profile</members>
+        <members>profile one</members>
         <members>thankyou Profile</members>
         <name>Profile</name>
     </types>
@@ -738,6 +876,8 @@
         <members>Opportunity.Migile_Record_Type</members>
         <members>Questionnaire_Implementation__c.Lead_Questionnaire</members>
         <members>Questionnaire_Implementation__c.Opportunity_Questionnaire</members>
+        <members>Student__c.StudentRecord1</members>
+        <members>Student__c.StudentRecord2</members>
         <name>RecordType</name>
     </types>
     <types>

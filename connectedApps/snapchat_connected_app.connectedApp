@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>divya.j@autorabit.com</contactEmail>
+    <label>snapchat connected app</label>
+    <oauthConfig>
+        <callbackUrl>https://ap4.salesforce.com/app/mgmt/forceconnectedapps/forceAppEdit.apexp</callbackUrl>
+        <consumerKey>3MVG9YDQS5WtC11riEtFF1aPgpkUYkpAw.2MC0nCA9OgMw9aG333NLKek61N9ZkJWF5sk13bNdgRWCJac6bpa</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+</ConnectedApp>

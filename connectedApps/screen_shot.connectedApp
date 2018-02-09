@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>divya.j@autorabit.com</contactEmail>
+    <label>screen shot</label>
+    <samlConfig>
+        <acsUrl>https://ap4.salesforce.com/app/mgmt/forceconnectedapps/forceAppEdit.apexp</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>screen shot_live</entityUrl>
+        <samlNameIdFormat>Persistent</samlNameIdFormat>
+        <samlSubjectType>Username</samlSubjectType>
+    </samlConfig>
+</ConnectedApp>
