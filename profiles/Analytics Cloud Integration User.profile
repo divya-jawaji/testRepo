@@ -1541,6 +1541,9 @@
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1638,6 +1641,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
@@ -1741,6 +1747,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Contract</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>CustomSettingTestObj12__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -2091,6 +2106,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ApexRestServices</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ApiEnabled</name>
     </userPermissions>
     <userPermissions>
@@ -2120,6 +2139,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewEventLogFiles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

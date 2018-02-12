@@ -1541,6 +1541,9 @@
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>AssetRelationship-Asset Relationship Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Campaign-Campaign Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1638,6 +1641,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Scorecard-Scorecard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>

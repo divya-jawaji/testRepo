@@ -1640,6 +1640,9 @@
         <layout>Scorecard-Scorecard Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>ScorecardAssociation-Scorecard Association Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>ScorecardMetric-Scorecard Metric Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -1812,6 +1815,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ApexRestServices</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

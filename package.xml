@@ -306,6 +306,8 @@
         <members>Contract.StartDate</members>
         <members>Contract.Status</members>
         <members>ContractContactRole.Role</members>
+        <members>CustomSettingTestObj12__c.CustomerEmail__c</members>
+        <members>CustomSettingTestObj12__c.Description__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -665,6 +667,7 @@
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
+        <members>CustomSettingTestObj12__c</members>
         <members>CustomSettingTestObj12_c__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
@@ -800,6 +803,7 @@
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
+        <members>AssetRelationship-Asset Relationship Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -848,6 +852,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Student__c-Student Layout</members>
