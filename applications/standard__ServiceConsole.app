@@ -173,22 +173,175 @@
     <tab>standard-Case</tab>
     <tab>standard-Opportunity</tab>
     <tab>standard-Lead</tab>
+    <tab>standard-Knowledge</tab>
+    <tab>AC11__c</tab>
+    <tab>new_object_relationship__c</tab>
+    <tab>College__c</tab>
     <tab>Student__c</tab>
-    <tab>external_information__x</tab>
-    <tab>New_Custom_Object__c</tab>
-    <tab>CustomSettingTestObj12_c__c</tab>
+    <tab>Parent_OBJ1__c</tab>
+    <tab>Parent_OBJ12__c</tab>
+    <tab>Object_21__c</tab>
+    <tab>Child_OBJ12__c</tab>
+    <tab>AC12__c</tab>
+    <tab>APXTConga4__Conga_Solution_Parameter__c</tab>
+    <tab>Child_OBJ1__c</tab>
+    <tab>Child_OBJ2__c</tab>
+    <tab>NC1__c</tab>
+    <tab>Dataloader_test1__c</tab>
+    <tab>TestParent__c</tab>
+    <tab>TestChild__c</tab>
+    <tab>Parent_1__c</tab>
+    <tab>Child_1__c</tab>
+    <tab>New_Child_1__c</tab>
+    <tab>Confi_OBJ1__c</tab>
+    <tab>Confi_OBJ2__c</tab>
+    <tab>OBJ12__c</tab>
+    <tab>Object1_Client__c</tab>
+    <tab>DL1__c</tab>
+    <tab>DL1_field1__c</tab>
+    <tab>DL1_field2__c</tab>
+    <tab>contact_Template__c</tab>
+    <tab>Contact_Asset__c</tab>
+    <tab>Quick_object__c</tab>
+    <tab>Pre_Quick_object__c</tab>
+    <tab>Post_Quick_object__c</tab>
+    <tab>X25th_Sep__c</tab>
+    <tab>Setup1__c</tab>
+    <tab>Setup2__c</tab>
+    <tab>object__c</tab>
+    <tab>M__c</tab>
+    <tab>Accenture1__c</tab>
+    <tab>Child_Object__c</tab>
+    <tab>APXTConga4__Conga_Solution_Template__c</tab>
+    <tab>ObjectDataloader1__c</tab>
+    <tab>AC18__c</tab>
+    <tab>API41_Obj1__c</tab>
     <workspaceMappings>
         <mapping>
-            <tab>CustomSettingTestObj12_c__c</tab>
+            <tab>AC11__c</tab>
         </mapping>
         <mapping>
-            <tab>New_Custom_Object__c</tab>
+            <tab>AC12__c</tab>
+        </mapping>
+        <mapping>
+            <tab>AC18__c</tab>
+        </mapping>
+        <mapping>
+            <tab>API41_Obj1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>APXTConga4__Conga_Solution_Parameter__c</tab>
+        </mapping>
+        <mapping>
+            <tab>APXTConga4__Conga_Solution_Template__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Accenture1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Child_1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Child_OBJ12__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Child_OBJ1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Child_OBJ2__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Child_Object__c</tab>
+        </mapping>
+        <mapping>
+            <tab>College__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Confi_OBJ1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Confi_OBJ2__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Contact_Asset__c</tab>
+        </mapping>
+        <mapping>
+            <tab>DL1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>DL1_field1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>DL1_field2__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Dataloader_test1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>M__c</tab>
+        </mapping>
+        <mapping>
+            <tab>NC1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>New_Child_1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>OBJ12__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Object1_Client__c</tab>
+        </mapping>
+        <mapping>
+            <tab>ObjectDataloader1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Object_21__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Parent_1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Parent_OBJ12__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Parent_OBJ1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Post_Quick_object__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Pre_Quick_object__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Quick_object__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Setup1__c</tab>
+        </mapping>
+        <mapping>
+            <tab>Setup2__c</tab>
         </mapping>
         <mapping>
             <tab>Student__c</tab>
         </mapping>
         <mapping>
-            <tab>external_information__x</tab>
+            <tab>TestChild__c</tab>
+        </mapping>
+        <mapping>
+            <tab>TestParent__c</tab>
+        </mapping>
+        <mapping>
+            <tab>X25th_Sep__c</tab>
+        </mapping>
+        <mapping>
+            <tab>contact_Template__c</tab>
+        </mapping>
+        <mapping>
+            <tab>new_object_relationship__c</tab>
+        </mapping>
+        <mapping>
+            <tab>object__c</tab>
         </mapping>
         <mapping>
             <tab>standard-Account</tab>
@@ -200,6 +353,9 @@
         <mapping>
             <fieldName>AccountId</fieldName>
             <tab>standard-Contact</tab>
+        </mapping>
+        <mapping>
+            <tab>standard-Knowledge</tab>
         </mapping>
         <mapping>
             <tab>standard-Lead</tab>

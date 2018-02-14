@@ -69,4 +69,11 @@
     <fields>
         <fullName>UnitPrice</fullName>
     </fields>
+    <fields>
+        <fullName>stamp_dataloader_1__c</fullName>
+        <externalId>false</externalId>
+        <label>stamp dataloader 1</label>
+        <required>true</required>
+        <type>DateTime</type>
+    </fields>
 </CustomObject>

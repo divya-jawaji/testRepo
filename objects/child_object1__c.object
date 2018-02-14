@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>child_field_email_1__c</fullName>
+        <externalId>false</externalId>
+        <label>child field email 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>child_field_number_1__c</fullName>
+        <externalId>false</externalId>
+        <label>child field number 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>child_field_number_2__c</fullName>
+        <externalId>false</externalId>
+        <label>child field number 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_1__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_2__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 2</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_3__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 3</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_4__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 4</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_5__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 5</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_6__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 6</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_7__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 7</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_8__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 8</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>child_field_phone_9__c</fullName>
+        <externalId>false</externalId>
+        <label>child field phone 9</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>parent_relationship1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Parent object1</label>
+        <referenceTo>Parent_object1__c</referenceTo>
+        <relationshipLabel>child object1</relationshipLabel>
+        <relationshipName>child_object1</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>child object1</label>
+    <nameField>
+        <label>child object1 Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>child object1</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Parent_number_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>! ISNULL( parent_relationship1__r.Parent_field_phone_1__c )</errorConditionFormula>
+        <errorMessage>is not to be empty</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Parent_number_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>! ISNULL(  parent_relationship1__r.Parent_field_phone_2__c  )</errorConditionFormula>
+        <errorMessage>is not to be empty</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

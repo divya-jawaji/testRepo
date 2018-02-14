@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customApplications>
+        <label><!-- CApp1 --></label>
+        <name>CApp1</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- CApp2 --></label>
+        <name>CApp2</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- dafs --></label>
+        <name>dafs</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- ssss --></label>
+        <name>sssssss</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- teja app3 --></label>
+        <name>teja_app3</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- tejaapp --></label>
+        <name>tejaapp</name>
+    </customApplications>
+    <customApplications>
+        <label><!-- tejaapp 2 --></label>
+        <name>tejaapp_2</name>
+    </customApplications>
+    <customLabels>
+        <label><!-- A --></label>
+        <name>A</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A0 --></label>
+        <name>A0</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- A1test --></label>
+        <name>A1test</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AB --></label>
+        <name>AB</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCCtest1 --></label>
+        <name>ACCCtest1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCL1 --></label>
+        <name>ACCL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCL3 --></label>
+        <name>ACCL3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCLABEL1 --></label>
+        <name>ACCLABEL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCLABEL1TEST --></label>
+        <name>ACCLABEL1TEST</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACCt3 --></label>
+        <name>ACCt3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACL1 --></label>
+        <name>ACL1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACL2 --></label>
+        <name>ACL2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ACL3 --></label>
+        <name>ACL3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Acccustomlabel1 --></label>
+        <name>Acccustomlabel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Accountlabel1 --></label>
+        <name>Accountlabel1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Custom Label12 --></label>
+        <name>Custom_Label12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Label 5 --></label>
+        <name>Label_5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- demo12 --></label>
+        <name>demo12</name>
+    </customLabels>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+</Translations>

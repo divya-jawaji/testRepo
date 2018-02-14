@@ -12,15 +12,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>StudentCity__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>StudentInfo__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>StudentMobile__c</field>
+                <field>StudentCollege__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>

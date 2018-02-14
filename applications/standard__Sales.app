@@ -15,8 +15,46 @@
     <tab>standard-Product2</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
+    <tab>AC11__c</tab>
+    <tab>new_object_relationship__c</tab>
+    <tab>College__c</tab>
     <tab>Student__c</tab>
-    <tab>external_information__x</tab>
-    <tab>New_Custom_Object__c</tab>
-    <tab>CustomSettingTestObj12_c__c</tab>
+    <tab>Parent_OBJ1__c</tab>
+    <tab>Parent_OBJ12__c</tab>
+    <tab>Object_21__c</tab>
+    <tab>Child_OBJ12__c</tab>
+    <tab>AC12__c</tab>
+    <tab>APXTConga4__Conga_Solution_Parameter__c</tab>
+    <tab>Child_OBJ1__c</tab>
+    <tab>Child_OBJ2__c</tab>
+    <tab>NC1__c</tab>
+    <tab>Dataloader_test1__c</tab>
+    <tab>TestParent__c</tab>
+    <tab>TestChild__c</tab>
+    <tab>Parent_1__c</tab>
+    <tab>Child_1__c</tab>
+    <tab>New_Child_1__c</tab>
+    <tab>Confi_OBJ1__c</tab>
+    <tab>Confi_OBJ2__c</tab>
+    <tab>OBJ12__c</tab>
+    <tab>Object1_Client__c</tab>
+    <tab>DL1__c</tab>
+    <tab>DL1_field1__c</tab>
+    <tab>DL1_field2__c</tab>
+    <tab>contact_Template__c</tab>
+    <tab>Contact_Asset__c</tab>
+    <tab>Quick_object__c</tab>
+    <tab>Pre_Quick_object__c</tab>
+    <tab>Post_Quick_object__c</tab>
+    <tab>X25th_Sep__c</tab>
+    <tab>Setup1__c</tab>
+    <tab>Setup2__c</tab>
+    <tab>object__c</tab>
+    <tab>M__c</tab>
+    <tab>Accenture1__c</tab>
+    <tab>Child_Object__c</tab>
+    <tab>APXTConga4__Conga_Solution_Template__c</tab>
+    <tab>ObjectDataloader1__c</tab>
+    <tab>AC18__c</tab>
+    <tab>API41_Obj1__c</tab>
 </CustomApplication>

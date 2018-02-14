@@ -1,0 +1,17 @@
+<apex:page action="init" controller="A1">
+  <!-- Begin Default Content REMOVE THIS -->
+  <h1>Congratulations</h1>
+  <style> </style>
+  <b>Hello World</b>
+
+<br/>
+<hr/>
+  <style> body { font-family: 'Arial Unicode MS'; } </style>
+
+    <h1>Congratulations</h1>
+
+    <p>This is your new PDF</p>
+
+  This is your new Page
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

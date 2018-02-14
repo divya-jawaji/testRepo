@@ -46,7 +46,7 @@
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
@@ -62,6 +62,20 @@
             <restricted>true</restricted>
             <valueSetName>GlobalPickList_Cities</valueSetName>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>StudentCollege__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Fk student with college name</description>
+        <externalId>false</externalId>
+        <label>College</label>
+        <referenceTo>College__c</referenceTo>
+        <relationshipLabel>Students</relationshipLabel>
+        <relationshipName>Students</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>StudentInfo__c</fullName>
@@ -84,14 +98,29 @@
     <label>Student</label>
     <listViews>
         <fullName>All</fullName>
-        <columns>NAME</columns>
-        <columns>OBJECT_ID</columns>
-        <columns>RECORDTYPE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
+    <listViews>
+        <fullName>Student_View1</fullName>
+        <columns>NAME</columns>
+        <columns>StudentCollege__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATEDBY_USER.ALIAS</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <label>Student_View1</label>
+    </listViews>
     <nameField>
         <label>Student Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Students</pluralLabel>
@@ -161,5 +190,11 @@
     </recordTypes>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>validation_rule_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>!  ISBLANK( Name )</errorConditionFormula>
+        <errorMessage>please give the name</errorMessage>
+    </validationRules>
     <visibility>Public</visibility>
 </CustomObject>

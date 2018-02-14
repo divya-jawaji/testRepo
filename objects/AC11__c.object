@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Compact_Layout</fullName>
+        <fields>Name</fields>
+        <label>Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>Compact_Layout_date</fullName>
+        <fields>Name</fields>
+        <fields>field_date_1__c</fields>
+        <label>Compact Layout date</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Test to merge
+Test</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>Field_Set_1</fullName>
+        <description>sadsc</description>
+        <label>Field Set 1</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Field_Set_2</fullName>
+        <description>sgdg</description>
+        <label>Field Set 2</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>Field_Set_3</fullName>
+        <description>dfffffffffffbv</description>
+        <label>Field Set 3</label>
+    </fieldSets>
+    <fields>
+        <fullName>email__c</fullName>
+        <externalId>false</externalId>
+        <label>email</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>field_date_1__c</fullName>
+        <externalId>false</externalId>
+        <label>field date 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>field_email_1__c</fullName>
+        <externalId>false</externalId>
+        <label>field email 1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>picklist__c</fullName>
+        <externalId>false</externalId>
+        <label>picklist multi</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1323</fullName>
+                    <default>false</default>
+                    <label>1323</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>AC11</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>AC11 Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>AC11s</pluralLabel>
+    <recordTypes>
+        <fullName>RecType_1</fullName>
+        <active>true</active>
+        <description>record type 1</description>
+        <label>RecType 1</label>
+        <picklistValues>
+            <picklist>picklist__c</picklist>
+            <values>
+                <fullName>1323</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RecType_2</fullName>
+        <active>true</active>
+        <label>RecType 2</label>
+        <picklistValues>
+            <picklist>picklist__c</picklist>
+            <values>
+                <fullName>1323</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RecType_3</fullName>
+        <active>true</active>
+        <label>RecType 3</label>
+        <picklistValues>
+            <picklist>picklist__c</picklist>
+            <values>
+                <fullName>1323</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>RecType_4</fullName>
+        <active>true</active>
+        <label>RecType 4</label>
+        <picklistValues>
+            <picklist>picklist__c</picklist>
+            <values>
+                <fullName>1323</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>validation_rule_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( field_date_1__c )</errorConditionFormula>
+        <errorMessage>Please give the details</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>validation_rule_2_email</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK( field_email_1__c )</errorConditionFormula>
+        <errorMessage>Give the email</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

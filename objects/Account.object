@@ -65,6 +65,11 @@
         <type>Default</type>
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>compact1</fullName>
+        <fields>BillingAddress</fields>
+        <label>compact1</label>
+    </compactLayouts>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
@@ -343,6 +348,12 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>external_id__c</fullName>
+        <externalId>true</externalId>
+        <label>external_id</label>
+        <type>AutoNumber</type>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
@@ -402,6 +413,57 @@
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>ACC_validation_rule_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+OR(BillingCountry = &quot;US&quot;, BillingCountry=&quot;USA&quot;, ISBLANK(BillingCountry)),
+OR(
+LEN(BillingState) &lt; 2,
+NOT(
+CONTAINS(&quot;AL:AK:AZ:AR:CA:CO:CT:DE:DC:FL:GA:HI:ID:&quot; &amp;
+&quot;IL:IN:IA:KS:KY:LA:ME:MD:MA:MI:MN:MS:MO:MT:NE:NV:NH:&quot; &amp;
+&quot;NJ:NM:NY:NC:ND:OH:OK:OR:PA:RI:SC:SD:TN:TX:UT:VT:VA:&quot; &amp;
+&quot;WA:WV:WI:WY&quot;, BillingState)
+)))</errorConditionFormula>
+        <errorMessage>A valid two-letter state code is required.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>validation_rule_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+ OR(ShippingCountry = &quot;USA&quot;, ISBLANK(ShippingCountry)),
+  OR(
+   AND(LEN(ShippingPostalCode) &lt;&gt;5, 
+      LEN(ShippingPostalCode) &lt;&gt; 10),
+   NOT(CONTAINS(&quot;0123456789&quot;, 
+      LEFT( ShippingPostalCode, 1))),
+   NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 2, 1))),
+   NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 3, 1))),
+   NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 4, 1))),
+   NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 5, 1))),
+   AND(
+    LEN(ShippingPostalCode) = 10,
+   OR(
+    MID( ShippingPostalCode , 6, 1) &lt;&gt; &quot;-&quot;,
+    NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 7, 1))),
+    NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 8, 1))),
+    NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 9, 1))),
+    NOT(CONTAINS(&quot;0123456789&quot;, 
+      MID( ShippingPostalCode , 10, 1)))
+   )
+  )
+ )
+)</errorConditionFormula>
+        <errorMessage>Zip code must be in 99999 or 99999-9999 format.</errorMessage>
+    </validationRules>
     <webLinks>
         <fullName>Billing</fullName>
         <availability>online</availability>
