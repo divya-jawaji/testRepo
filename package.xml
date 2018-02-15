@@ -62,7 +62,6 @@
         <name>Community</name>
     </types>
     <types>
-        <members>New_App</members>
         <members>connected_app</members>
         <members>screen_shot</members>
         <members>snapchat_connected_app</members>
@@ -73,7 +72,6 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
-        <members>standard__LightningSales</members>
         <members>standard__LightningSalesConsole</members>
         <members>standard__LightningService</members>
         <members>standard__Marketing</members>
@@ -308,9 +306,6 @@
         <members>Contract.StartDate</members>
         <members>Contract.Status</members>
         <members>ContractContactRole.Role</members>
-        <members>CustomSettingTestObj12__c.CustomerEmail__c</members>
-        <members>CustomSettingTestObj12__c.Description__c</members>
-        <members>Custom_Sync_Object__c.AutorabitExtId__c</members>
         <members>DandBCompany.CompanyCurrencyIsoCode</members>
         <members>DandBCompany.CountryAccessCode</members>
         <members>DandBCompany.CurrencyCode</members>
@@ -438,6 +433,7 @@
         <members>Event.EventSubtype</members>
         <members>Event.IsAllDayEvent</members>
         <members>Event.IsPrivate</members>
+        <members>Event.IsReminderSet</members>
         <members>Event.Location</members>
         <members>Event.OwnerId</members>
         <members>Event.Phone</members>
@@ -447,7 +443,6 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
-        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Lead.Address</members>
@@ -487,9 +482,7 @@
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
         <members>Macro.StartingContext</members>
-        <members>Metric.OrigMetricId__c</members>
         <members>Multipicklist__c.M__c</members>
-        <members>New_Custom_Object__c.AutorabitExtId__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.AutorabitExtId__c</members>
@@ -500,6 +493,7 @@
         <members>Opportunity.DeliveryInstallationStatus__c</members>
         <members>Opportunity.Description</members>
         <members>Opportunity.ExpectedRevenue</members>
+        <members>Opportunity.IqScore</members>
         <members>Opportunity.IsPrivate</members>
         <members>Opportunity.LeadSource</members>
         <members>Opportunity.MainCompetitors__c</members>
@@ -599,8 +593,16 @@
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
         <members>Product2.StockKeepingUnit</members>
+        <members>QuickText.Category</members>
+        <members>QuickText.Channel</members>
+        <members>QuickText.Message</members>
+        <members>QuickText.Name</members>
+        <members>QuickText.OwnerId</members>
         <members>Scorecard.Description</members>
         <members>Scorecard.Name</members>
+        <members>Scorecard.OwnerId</members>
+        <members>ScorecardAssociation.ScorecardId</members>
+        <members>ScorecardAssociation.TargetEntityId</members>
         <members>ScorecardMetric.Category</members>
         <members>ScorecardMetric.Description</members>
         <members>ScorecardMetric.Name</members>
@@ -653,8 +655,6 @@
         <members>UserProvisioningRequest.SalesforceUserId</members>
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
-        <members>newcustomsettinglabels__c.field_2__c</members>
-        <members>newcustomsettinglabels__c.field_one__c</members>
         <members>screenshot_external__x.picklist123__c</members>
         <name>CustomField</name>
     </types>
@@ -670,14 +670,14 @@
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
-        <members>CustomSettingTestObj12__c</members>
         <members>CustomSettingTestObj12_c__c</members>
-        <members>Custom_Sync_Object__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -704,12 +704,15 @@
         <members>OrderDetails__x</members>
         <members>OrderItem</members>
         <members>Orders__x</members>
+        <members>OrgDeleteRequest</members>
         <members>PartnerRole</members>
         <members>PaymentMechanisms__x</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>QuickText</members>
         <members>Scorecard</members>
+        <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
         <members>Site</members>
         <members>SocialPersona</members>
@@ -717,13 +720,14 @@
         <members>StreamingChannel</members>
         <members>Student__c</members>
         <members>Task</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>external_information__x</members>
         <members>mulpicklist__c</members>
         <members>multilabel__c</members>
         <members>myaccount__c</members>
-        <members>newcustomsettinglabels__c</members>
         <members>screenshot_external__x</members>
         <members>teachers__c</members>
         <name>CustomObject</name>
@@ -748,17 +752,13 @@
     </types>
     <types>
         <members>CustomSettingTestObj12_c__c</members>
-        <members>Custom_Sync_Object__c</members>
         <members>New_Custom_Object__c</members>
         <members>Student__c</members>
         <members>external_information__x</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>Account.Standard_Account_Duplicate_Rule</members>
-        <members>Contact.Standard_Contact_Duplicate_Rule</members>
         <members>Contact.Standard_Rule_for_Contacts_with_Duplicate_Leads</members>
-        <members>Lead.Standard_Lead_Duplicate_Rule</members>
         <members>Lead.Standard_Rule_for_Leads_with_Duplicate_Contacts</members>
         <name>DuplicateRule</name>
     </types>
@@ -817,7 +817,6 @@
         <members>Account-Account %28Support%29 Layout</members>
         <members>Account-Account Layout</members>
         <members>Asset-Asset Layout</members>
-        <members>AssetRelationship-Asset Relationship Layout</members>
         <members>Campaign-Campaign Layout</members>
         <members>CampaignMember-Campaign Member Page Layout</members>
         <members>Case-Case %28Marketing%29 Layout</members>
@@ -832,7 +831,6 @@
         <members>ContentVersion-Content Version Layout</members>
         <members>Contract-Contract Layout</members>
         <members>CustomSettingTestObj12_c__c-CustomSettingTestObj12%5F%5Fc Layout</members>
-        <members>Custom_Sync_Object__c-Custom_Sync_Object Layout</members>
         <members>DandBCompany-D%26B Company Layout</members>
         <members>DuplicateRecordItem-Duplicate Record Item Layout</members>
         <members>DuplicateRecordItem-page layout1</members>
@@ -867,6 +865,7 @@
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
         <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardAssociation-Scorecard Association Layout</members>
         <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Student__c-Student Layout</members>
@@ -902,6 +901,7 @@
         <members>Case.AllOpenCases</members>
         <members>Case.MyCases</members>
         <members>Case.MyOpenCases</members>
+        <members>CollaborationGroup.All_ChatterGroups</members>
         <members>Contact.AllContacts</members>
         <members>Contact.BirthdaysThisMonth</members>
         <members>Contact.MyContacts</members>
@@ -915,7 +915,6 @@
         <members>Contract.MyDraftContracts</members>
         <members>Contract.MyInApprovalContracts</members>
         <members>CustomSettingTestObj12_c__c.All</members>
-        <members>Custom_Sync_Object__c.All</members>
         <members>Idea.Ideas_Last_7_Days</members>
         <members>Lead.AllOpenLeads</members>
         <members>Lead.MyUnreadLeads</members>
@@ -936,6 +935,8 @@
         <members>Order.AllDraftOrders</members>
         <members>Order.AllOrders</members>
         <members>Product2.AllProducts</members>
+        <members>Scorecard.AllScorecards</members>
+        <members>Scorecard.MyScorecards</members>
         <members>Solution.AllReviewedSolutions</members>
         <members>Solution.AllUnreviewedSolutions</members>
         <members>Student__c.All</members>
@@ -944,12 +945,6 @@
         <members>User.AllUsers</members>
         <members>external_information__x.All</members>
         <name>ListView</name>
-    </types>
-    <types>
-        <members>Account.Standard_Account_Match_Rule_v1_0</members>
-        <members>Contact.Standard_Contact_Match_Rule_v1_1</members>
-        <members>Lead.Standard_Lead_Match_Rule_v1_0</members>
-        <name>MatchingRule</name>
     </types>
     <types>
         <members>PermissionTest11</members>
@@ -1012,7 +1007,6 @@
         <name>Profile</name>
     </types>
     <types>
-        <members>Case.LogACall</members>
         <members>Case.NewChildCase</members>
         <members>CollaborationGroup.NewGroupMember</members>
         <members>CollaborationGroup.NewGroupRecord</members>
@@ -1040,8 +1034,6 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
-        <members>Metric.Completion</members>
-        <members>Metric.Progress</members>
         <members>Student__c.StudentRecord1</members>
         <members>Student__c.StudentRecord2</members>
         <name>RecordType</name>
@@ -1156,6 +1148,8 @@
         <members>OrderType</members>
         <members>PartnerRole</members>
         <members>Product2Family</members>
+        <members>QuickTextCategory</members>
+        <members>QuickTextChannel</members>
         <members>Salutation</members>
         <members>SolutionStatus</members>
         <members>TaskPriority</members>

@@ -6,4 +6,8 @@
     <tab>standard-Contact</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
+    <tab>Student__c</tab>
+    <tab>external_information__x</tab>
+    <tab>New_Custom_Object__c</tab>
+    <tab>CustomSettingTestObj12_c__c</tab>
 </CustomApplication>

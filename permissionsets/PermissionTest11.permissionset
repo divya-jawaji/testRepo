@@ -1569,6 +1569,10 @@
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>standard-CollaborationGroup</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>standard-Contact</tab>
         <visibility>None</visibility>
     </tabSettings>

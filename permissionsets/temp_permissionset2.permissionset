@@ -1113,11 +1113,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>New_Custom_Object__c.AutorabitExtId__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Opportunity.AccountId</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1571,6 +1566,10 @@
     </tabSettings>
     <tabSettings>
         <tab>standard-Case</tab>
+        <visibility>None</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>standard-CollaborationGroup</tab>
         <visibility>None</visibility>
     </tabSettings>
     <tabSettings>
