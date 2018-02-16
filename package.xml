@@ -3,6 +3,7 @@
     <version>39.0</version>
     <types>
         <members>Action_Template_1</members>
+        <members>sai</members>
         <name>ActionLinkGroupTemplate</name>
     </types>
     <types>
@@ -146,6 +147,8 @@
         <members>APXTConga4__TESTgetCM8URLFromURLService</members>
         <members>APXTConga4__getCM8URLFromURLService</members>
         <members>ARApexTest</members>
+        <members>ARApexclass234</members>
+        <members>ARApexclass2345</members>
         <members>ARTestApex</members>
         <members>ATest1</members>
         <members>AWSClass1</members>
@@ -153,13 +156,21 @@
         <members>Ac111</members>
         <members>Ac1221</members>
         <members>Ac2</members>
+        <members>Ac3</members>
         <members>Ac31</members>
         <members>Ac314</members>
         <members>Ac345</members>
+        <members>Ac4</members>
+        <members>AcccountARTest1</members>
         <members>AccountVFPageCon</members>
         <members>AccountsController</members>
         <members>Apex1</members>
         <members>ApexClass1</members>
+        <members>ApexClass15</members>
+        <members>ApexCls01</members>
+        <members>ApexTestCodeCoverageClass1</members>
+        <members>Apex_Class1</members>
+        <members>AppClsProfile1</members>
         <members>B2</members>
         <members>B3</members>
         <members>B4</members>
@@ -174,6 +185,7 @@
         <members>COmment1</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
+        <members>ClassOne</members>
         <members>Comments</members>
         <members>CommunitiesLandingController</members>
         <members>CommunitiesLandingControllerTest</members>
@@ -206,9 +218,12 @@
         <members>LightningSelfRegisterController</members>
         <members>LightningSelfRegisterControllerTest</members>
         <members>Merge1</members>
+        <members>MessageInfo</members>
         <members>MyContactListController</members>
+        <members>MyHelloWorld</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
+        <members>MyWorld</members>
         <members>New1</members>
         <members>New2</members>
         <members>New3</members>
@@ -218,16 +233,28 @@
         <members>New7</members>
         <members>New8</members>
         <members>New9</members>
+        <members>NewCusomClass</members>
+        <members>NewWelcome</members>
+        <members>NewYearMsg</members>
         <members>OlderAccountsUtility</members>
+        <members>ProfileClass2</members>
+        <members>ProfileTestClass</members>
+        <members>SARAccountClass33</members>
         <members>SRclass1</members>
+        <members>SaiClass1</members>
+        <members>Sample</members>
         <members>ScheduleAccountJob</members>
         <members>Sep25</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>TestApexClass15</members>
         <members>TestCLass</members>
         <members>TestLightningConnectQuickstart</members>
+        <members>Welcome</members>
+        <members>WelcomeInfo</members>
+        <members>WelecomeInfo</members>
         <members>a12testclass</members>
         <members>a13testclass</members>
         <members>a14testclass</members>
