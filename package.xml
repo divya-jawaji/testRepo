@@ -364,6 +364,12 @@
         <name>Community</name>
     </types>
     <types>
+        <members>connected_app</members>
+        <members>screen_shot</members>
+        <members>snapchat_connected_app</members>
+        <name>ConnectedApp</name>
+    </types>
+    <types>
         <members>External_Orders</members>
         <members>Trailblazer</members>
         <members>standard__AppLauncher</members>

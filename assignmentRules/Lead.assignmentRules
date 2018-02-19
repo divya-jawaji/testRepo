@@ -10,9 +10,9 @@
     </assignmentRule>
     <assignmentRule>
         <fullName>Standard</fullName>
-        <active>false</active>
+        <active>true</active>
         <ruleEntry>
-            <assignedTo>sriteja.org1@autorabit.com</assignedTo>
+            <assignedTo>test7@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -21,7 +21,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>sriteja.org1@autorabit.com</assignedTo>
+            <assignedTo>test7@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
