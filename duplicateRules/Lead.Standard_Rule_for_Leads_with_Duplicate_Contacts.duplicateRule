@@ -11,18 +11,6 @@
         <objectMapping>
             <inputObject>Lead</inputObject>
             <mappingFields>
-                <inputField>Phone</inputField>
-                <outputField>Phone</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>Street</inputField>
-                <outputField>MailingStreet</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>Email</inputField>
-                <outputField>Email</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>FirstName</inputField>
                 <outputField>FirstName</outputField>
             </mappingFields>
@@ -31,8 +19,20 @@
                 <outputField>LastName</outputField>
             </mappingFields>
             <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Email</inputField>
+                <outputField>Email</outputField>
+            </mappingFields>
+            <mappingFields>
                 <inputField>City</inputField>
                 <outputField>MailingCity</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Street</inputField>
+                <outputField>MailingStreet</outputField>
             </mappingFields>
             <mappingFields>
                 <inputField>PostalCode</inputField>
@@ -55,5 +55,5 @@
     <operationsOnInsert>Report</operationsOnInsert>
     <operationsOnUpdate>Report</operationsOnUpdate>
     <securityOption>EnforceSharingRules</securityOption>
-    <sortOrder>1</sortOrder>
+    <sortOrder>2</sortOrder>
 </DuplicateRule>
