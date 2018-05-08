@@ -1,4 +1,4 @@
-<apex:page controller="ScopeInformationController" docType="HTML-5.0" showHeader="false" sidebar="false" renderAs="pdf" applyBodyTag="false">
+<apex:page controller="scopeInformationController" docType="HTML-5.0" showHeader="false" sidebar="false" renderAs="pdf" applyBodyTag="false">
 
     <head>
         <style type="text/css">
@@ -10,7 +10,8 @@
                 table-layout: fixed;
             }
             tr,td {
-                padding-bottom: 1em;
+                padding-bottom: 0.4em;
+                padding-top: 0.4em;
             }
             td.td1{
                 word-wrap: break-word;
@@ -27,7 +28,7 @@
 
     <h1>
       <b>
-         <center> {!OppObj.Account.name} - Scope for POC</center>
+         <center> {!OppObj.Account.name} - Evaluation Scope Document</center>
       </b>
    </h1>
     <br/>
@@ -40,7 +41,7 @@
 
             <tr>
                 <td colspan="2">Client Name:</td>
-                <td>{!scpVar.Opportunity__r.Account.name}</td>
+                <td>{!scpVar.Opportunity__r.Account.name}</td>    
             </tr>
         
             <tr>
@@ -74,7 +75,7 @@
                 <td colspan="2">Approver:</td>
                 <td>{!scpVar.Approver__c}</td>
 
-            </tr>
+            </tr>            
             <tr>
             <td colspan="2">In Scope:</td>
                 <td>{!scpVar.Scope__c}</td>
@@ -85,16 +86,16 @@
                     <td >{!scpVar.Out_ofScope__c}</td>
 
             </tr>
+                <tr>
+                <td colspan="2">Scope Details:</td></tr>
+                 <tr><td class = "td1" colspan="3"><p><apex:outputText value="{!IF(scpVar.Poc_Scope__c!=null,scpVar.Poc_Scope__c,'N/A')}" escape="false" style="white-space: pre-wrap;" /></p></td>
+
+            </tr>
             <tr>
                 <td colspan= "3">Pre-requisites:</td></tr>
                   <tr> <td class = "td1" colspan= "3"><p><apex:outputText value="{!IF(scpVar.Assumptions__c!=null,scpVar.Assumptions__c,'N/A')}" escape="false" style="white-space: pre-wrap;" />
                   </p> </td></tr>
-             <tr>
-                <td colspan= "3">Sign of Criteria:</td></tr>
-                   <tr>
-                    <td class ="td1" colspan= "3"><apex:outputText value="{!IF(scpVar.sign_off_Criteria__c!=null,scpVar.sign_off_Criteria__c,'N/A')}" escape="false" style="white-space: pre-wrap;"/></td>
-
-            </tr>
+             
               <tr>
                 <td colspan="2" >
                     <apex:outputLabel value="License & provision complete:"></apex:outputLabel>

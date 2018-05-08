@@ -45,9 +45,10 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
-    <enableReports>false</enableReports>
+    <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
@@ -85,7 +86,6 @@
         <externalId>false</externalId>
         <label>Contact</label>
         <referenceTo>Contact</referenceTo>
-        <relationshipLabel>Implementation Questionnaires</relationshipLabel>
         <relationshipName>Implementation_Questionnaires</relationshipName>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -225,14 +225,24 @@
         <type>LongTextArea</type>
         <visibleLines>2</visibleLines>
     </fields>
-    <label>Implementation Questionnaire</label>
+    <label>Demo Questionnaire</label>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
         <columns>Company_Name__c</columns>
-        <columns>Opportunity__c</columns>
         <columns>Lead__c</columns>
+        <columns>Hours_of_effort__c</columns>
         <columns>Challenges__c</columns>
+        <columns>No_of_Sanbox_in_Release__c</columns>
+        <columns>ALM_Tools__c</columns>
+        <columns>Current_Version_Control_Tool_If_Exists__c</columns>
+        <columns>Data_Loader_Capabilities__c</columns>
+        <columns>Deployment_User__c</columns>
+        <columns>Long_Term_Goals__c</columns>
+        <columns>Release_Duration__c</columns>
+        <columns>Short_Term_Goals_with_current_RLM__c</columns>
+        <columns>Text_Automation_Details__c</columns>
+        <columns>CREATED_DATE</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
         <language>en_US</language>
@@ -242,7 +252,7 @@
         <label>IQ- Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Implementation Questionnaires</pluralLabel>
+    <pluralLabel>Demo Questionnaires</pluralLabel>
     <recordTypes>
         <fullName>Lead_Questionnaire</fullName>
         <active>true</active>

@@ -1,4 +1,4 @@
 public class Sample{
-//Sample class added from source
-// comment is added for performance improving time
+//Sample class class Added
+//new comment is added for EZ-Commit Testing
 }

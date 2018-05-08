@@ -14,7 +14,7 @@ public class WebtoCaseController
     public string caseTypeVal{get;set;}
     public string loginurlTypeVal{get;set;}
     public string companyNameVal{get;set;}
-
+ 
     public WebtoCaseController() {
         attach = new Attachment();
         c = new Case();

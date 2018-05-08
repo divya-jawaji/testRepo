@@ -2,8 +2,8 @@
 <apex:stylesheet value="{!$Resource.questionnaireStyles}"/>
   <!-- Begin Default Content REMOVE THIS -->
   <apex:form styleClass="form-style">
-  Thanks for Providing the Questionnaire Details.
-  <p>Please visit our website <a href="http://www.autorabit.com/">Autorabit.com</a> to know more about AutoRABIT.</p> 
+  Thank you! We appreciate your time and effort.
+  <p>Please visit our <a href="http://www.autorabit.com/">website</a> to know more.</p> 
   </apex:form>
   <!-- End Default Content REMOVE THIS -->
 </apex:page>

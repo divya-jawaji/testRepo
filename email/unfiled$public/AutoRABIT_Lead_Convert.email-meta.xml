@@ -8,4 +8,5 @@
     <style>none</style>
     <subject>Lead Convert VF</subject>
     <type>visualforce</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

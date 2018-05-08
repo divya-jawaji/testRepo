@@ -1,3 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ACLT11</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ACLT11</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>Aclt111</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Aclt111</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>CLabel1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLabel1</shortDescription>
+        <value>Test</value>
+    </labels>
+    <labels>
+        <fullName>L51</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CL50</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>LT1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>LT1</shortDescription>
+        <value>1</value>
+    </labels>
+    <labels>
+        <fullName>TestByLeela</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TestByLeela</shortDescription>
+        <value>TestByLeela</value>
+    </labels>
+</CustomLabels>

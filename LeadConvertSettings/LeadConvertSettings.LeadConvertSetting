@@ -7,10 +7,66 @@
             <inputField>Business_Unit__c</inputField>
             <outputField>Business_Unit__c</outputField>
         </mappingFields>
+        <mappingFields>
+            <inputField>Company_URL__c</inputField>
+            <outputField>Company_URL__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Other_Product_Interests__c</inputField>
+            <outputField>Other_Product_Interests__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Partner_Margin__c</inputField>
+            <outputField>Partner_Margin__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Partner_Name__c</inputField>
+            <outputField>Partner_Name__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Partner_Type__c</inputField>
+            <outputField>Partner_Type__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Time_Zone__c</inputField>
+            <outputField>Time_Zone__c</outputField>
+        </mappingFields>
         <outputObject>Account</outputObject>
     </objectMapping>
     <objectMapping>
         <inputObject>Lead</inputObject>
+        <mappingFields>
+            <inputField>Company_URL__c</inputField>
+            <outputField>Company_URL__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Demo_Performed_Date__c</inputField>
+            <outputField>Demo_Performed_Date__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Implementation_Questionnaire__c</inputField>
+            <outputField>Reference__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>LinkedIn_URL__c</inputField>
+            <outputField>Linkedin__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Time_Zone__c</inputField>
+            <outputField>Time_Zone__c</outputField>
+        </mappingFields>
+        <outputObject>Contact</outputObject>
+    </objectMapping>
+    <objectMapping>
+        <inputObject>Lead</inputObject>
+        <mappingFields>
+            <inputField>Business_Type__c</inputField>
+            <outputField>Business_Type__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Company_URL__c</inputField>
+            <outputField>Company_URL__c</outputField>
+        </mappingFields>
         <mappingFields>
             <inputField>Competitor__c</inputField>
             <outputField>Competitors__c</outputField>
@@ -23,19 +79,31 @@
             <inputField>Other_Competitors__c</inputField>
             <outputField>Other_Competitors__c</outputField>
         </mappingFields>
+        <mappingFields>
+            <inputField>Other_Product_Interests__c</inputField>
+            <outputField>Other_Product_Interests__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Partner_Margin__c</inputField>
+            <outputField>Partner_Margin__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Partner_Name__c</inputField>
+            <outputField>Partner_Name__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Partner_Type__c</inputField>
+            <outputField>Partner_Type__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>SDR__c</inputField>
+            <outputField>SDR__c</outputField>
+        </mappingFields>
+        <mappingFields>
+            <inputField>Time_Zone__c</inputField>
+            <outputField>Time_Zone__c</outputField>
+        </mappingFields>
         <outputObject>Opportunity</outputObject>
-    </objectMapping>
-    <objectMapping>
-        <inputObject>Lead</inputObject>
-        <mappingFields>
-            <inputField>LinkedIn_URL__c</inputField>
-            <outputField>Linkedin__c</outputField>
-        </mappingFields>
-        <mappingFields>
-            <inputField>Implementation_Questionnaire__c</inputField>
-            <outputField>Reference__c</outputField>
-        </mappingFields>
-        <outputObject>Contact</outputObject>
     </objectMapping>
     <opportunityCreationOptions>VisibleOptional</opportunityCreationOptions>
 </LeadConvertSettings>

@@ -6,4 +6,5 @@
     <style>none</style>
     <subject>A new case is created Case #: {!Case.CaseNumber} is assigned to you</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

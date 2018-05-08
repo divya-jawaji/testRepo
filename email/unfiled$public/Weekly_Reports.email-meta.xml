@@ -6,4 +6,5 @@
     <style>none</style>
     <subject>Weekly Report</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

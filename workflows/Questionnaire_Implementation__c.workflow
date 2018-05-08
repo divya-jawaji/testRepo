@@ -9,11 +9,7 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>abhinav.s@autorabit.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>bhargavi@39demo.com</recipient>
+            <recipient>arvind.t@autorabit.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -21,15 +17,31 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>hitesh.m@autorabit.com.crm</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jeff.s@autorabit.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>navneeth@39demo.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>paul.d@39demo.com</recipient>
+            <recipient>sherdah.m@autorabit.com</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>simon.w@autorabit.com</recipient>
+            <recipient>sundeep.kuppampati@autorabit.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>vamsi.g@autorabit.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>venkatesh.t@autorabit.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

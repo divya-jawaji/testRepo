@@ -3,9 +3,12 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <label>AutoRABIT Support</label>
-    <tab>standard-Account</tab>
-    <tab>standard-Case</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>lOCALTEST</tab>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>DF_16_Leads__c</tabs>
+    <tabs>CRM_Request__c</tabs>
+    <tabs>TrailHeaDX__c</tabs>
+    <tabs>MultiTest__c</tabs>
 </CustomApplication>

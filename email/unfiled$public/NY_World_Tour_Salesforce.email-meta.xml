@@ -6,4 +6,5 @@
     <style>none</style>
     <subject>Sponsor for NYC</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

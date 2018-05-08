@@ -7,4 +7,5 @@
     <style>none</style>
     <subject>AutoRABIT Trial is Ended for {!Opportunity.Account}</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

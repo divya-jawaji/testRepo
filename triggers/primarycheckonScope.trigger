@@ -20,9 +20,11 @@ trigger primarycheckonScope on Scope_Poc_Information__c (before insert,before up
         {
            if(add.Is_primary__c)
             {
+                if (add.Scope__c != null) {
                selectedVal.addAll(add.Scope__c.split(';'));
                 scopeIDList.add(add.Id);
                 system.debug('@@@@'+selectedVal);
+                }
             }
             for(String s: availableVal)
             {

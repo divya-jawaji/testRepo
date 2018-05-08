@@ -16,9 +16,9 @@
     </footer>
     <header>
         <backgroundColor>#FFFFFF</backgroundColor>
-        <height>100</height>
-        <horizontalAlignment>Left</horizontalAlignment>
-        <verticalAlignment>Top</verticalAlignment>
+        <height>170</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <verticalAlignment>Middle</verticalAlignment>
     </header>
     <middleLine>
         <color>#FFFFFF</color>

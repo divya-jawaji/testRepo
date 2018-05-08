@@ -45,8 +45,8 @@
     <showDetails>true</showDetails>
     <timeFrameFilter>
         <dateColumn>CREATED_DATEONLY</dateColumn>
-        <endDate>2016-07-26</endDate>
+        <endDate>2016-08-23</endDate>
         <interval>INTERVAL_CUSTOM</interval>
-        <startDate>2016-07-19</startDate>
+        <startDate>2016-08-16</startDate>
     </timeFrameFilter>
 </Report>

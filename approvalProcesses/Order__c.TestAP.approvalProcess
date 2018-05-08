@@ -28,12 +28,6 @@
     </entryCriteria>
     <finalApprovalRecordLock>true</finalApprovalRecordLock>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
-    <initialSubmissionActions>
-        <action>
-            <name>cvc</name>
-            <type>Alert</type>
-        </action>
-    </initialSubmissionActions>
     <label>TestAP</label>
     <recordEditability>AdminOnly</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>

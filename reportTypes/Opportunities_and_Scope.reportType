@@ -102,6 +102,11 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
+            <field>ForecastCategoryName</field>
+            <table>Opportunity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
             <field>Campaign</field>
             <table>Opportunity</table>
         </columns>
@@ -172,7 +177,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Trial_Start_Date__c</field>
+            <field>Evaluation_Start_Date__c</field>
             <table>Opportunity</table>
         </columns>
         <columns>
@@ -197,7 +202,7 @@
         </columns>
         <columns>
             <checkedByDefault>false</checkedByDefault>
-            <field>Trial_End_Date__c</field>
+            <field>Evaluation_End_Date__c</field>
             <table>Opportunity</table>
         </columns>
         <columns>

@@ -2,12 +2,12 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-Chatter</tab>
-    <tab>standard-Workspace</tab>
-    <tab>standard-ContentSearch</tab>
-    <tab>standard-ContentSubscriptions</tab>
-    <tab>Student__c</tab>
-    <tab>external_information__x</tab>
-    <tab>New_Custom_Object__c</tab>
-    <tab>CustomSettingTestObj12_c__c</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-Workspace</tabs>
+    <tabs>standard-ContentSearch</tabs>
+    <tabs>standard-ContentSubscriptions</tabs>
+    <tabs>Customer_Satisfaction_Survey__c</tabs>
+    <tabs>DF_16_Leads__c</tabs>
+    <tabs>TrailHeaDX__c</tabs>
+    <tabs>MultiTest__c</tabs>
 </CustomApplication>

@@ -7,4 +7,5 @@
     <style>none</style>
     <subject>AutoRABIT Case Number {!Case.CaseNumber} is created [{!Case.Thread_Id}]</subject>
     <type>text</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>

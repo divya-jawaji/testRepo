@@ -1,3 +1,9 @@
+/**
+*  @Description : Trigger to update Contact Name on opportunity based on Primary Contact under Contact Roles
+*                 This trigger fires after update.
+*  @Author      : Bhargavi Vadlamani
+*  @Created Date: 
+**/
 trigger UpdateContactRole on Opportunity(before update) {
     Set < Id > OppIds = new Set < Id > ();
     List<Opportunity> OpptyIDs = new List<Opportunity>();
@@ -20,19 +26,16 @@ trigger UpdateContactRole on Opportunity(before update) {
             Opp_OCR.put(ocr.opportunityid, tmp_ocr);
         }
     }
-    system.debug('Final OCR map: ' + Opp_OCR);
-
     for (Opportunity opps: Trigger.new) {
        
         List < OpportunityContactRole > this_OCR = new List < OpportunityContactRole > ();
         this_OCR = Opp_OCR.get(opps.id);
-        system.debug('this Opps (' + opps.id + ') list of OCRs: ' + this_OCR);
-          
-        if (this_OCR == null) opps.Contact_Name__c = null;
+       
+       if (this_OCR == null) {
+        opps.Contact_Name__c = null;
+        }
         else {
             for (OpportunityContactRole r: this_OCR) {
-                system.debug('cycling through the OCR list: ' + r);
-             
                 if (r.isprimary) opps.Contact_Name__c = r.contactid;
             }
          

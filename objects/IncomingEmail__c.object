@@ -46,6 +46,7 @@
     <description>This object is a dump for all emails hitting the email address declared in email services..</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
@@ -85,6 +86,14 @@
         <unique>false</unique>
     </fields>
     <label>IncomingEmail</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
     <nameField>
         <displayFormat>IN-{0000}</displayFormat>
         <label>IncomingEmail Name</label>

@@ -22,4 +22,5 @@ AutoRABIT Support
 support@autorabit.com.
 Case Reference:  [{!Case.Thread_Id}]</textOnly>
     <type>html</type>
+    <uiType>Aloha</uiType>
 </EmailTemplate>
