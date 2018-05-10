@@ -169,6 +169,10 @@
         <name>AutoResponseRule</name>
     </types>
     <types>
+        <members>Astro_summer_18</members>
+        <name>Bot</name>
+    </types>
+    <types>
         <members>Case.Customer Support</members>
         <members>Lead.AutoRABIT Lead Process</members>
         <members>Lead.Techsophy lead Process</members>
