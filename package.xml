@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>43.0</version>
+    <types>
+        <members>Astro_summer_18</members>
+        <name>Bot</name>
+    </types>
+    <types>
+        <members>summer18.CMSconnect</members>
+        <name>CMSConnectSource</name>
+    </types>
+    <types>
+        <members>EmailToSalesforce</members>
+        <members>MsgEmailService1</members>
+        <name>EmailServicesFunction</name>
+    </types>
+    <types>
+        <members>MIdomain_Intentset</members>
+        <name>MlDomain</name>
+    </types>
+</Package>
