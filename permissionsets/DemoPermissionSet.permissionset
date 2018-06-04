@@ -12,6 +12,10 @@
         <apexClass>A14</apexClass>
         <enabled>true</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>A15</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <hasActivationRequired>false</hasActivationRequired>
     <label>DemoPermissionSet</label>
     <license>Salesforce</license>
