@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>43.0</version>
+    <version>40.0</version>
     <types>
         <members>sai</members>
         <name>ActionLinkGroupTemplate</name>
@@ -664,12 +664,16 @@
         <members>CampaignMember</members>
         <members>Case</members>
         <members>CaseContactRole</members>
+        <members>CollaborationGroup</members>
+        <members>CollaborationGroupMember</members>
         <members>Contact</members>
         <members>ContactCleanInfo</members>
         <members>ContentVersion</members>
         <members>Contract</members>
         <members>ContractContactRole</members>
+        <members>CustomSettingTestObj12__c</members>
         <members>CustomSettingTestObj12_c__c</members>
+        <members>Custom_Sync_Object__c</members>
         <members>DandBCompany</members>
         <members>DuplicateRecordItem</members>
         <members>DuplicateRecordSet</members>
@@ -696,12 +700,15 @@
         <members>OrderDetails__x</members>
         <members>OrderItem</members>
         <members>Orders__x</members>
+        <members>OrgDeleteRequest</members>
         <members>PartnerRole</members>
         <members>PaymentMechanisms__x</members>
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>QuickText</members>
         <members>Scorecard</members>
+        <members>ScorecardAssociation</members>
         <members>ScorecardMetric</members>
         <members>Site</members>
         <members>SocialPersona</members>
@@ -709,6 +716,8 @@
         <members>StreamingChannel</members>
         <members>Student__c</members>
         <members>Task</members>
+        <members>Topic</members>
+        <members>TopicAssignment</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
         <members>external_information__x</members>
