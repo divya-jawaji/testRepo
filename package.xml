@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>39.0</version>
+    <version>43.0</version>
     <types>
         <members>A101</members>
         <members>A102</members>
@@ -132,6 +132,10 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AutoResponseRules</name>
+    </types>
+    <types>
+        <members>Astro_summer_18</members>
+        <name>Bot</name>
     </types>
     <types>
         <members>Case.CaseSupportProcessTest1</members>
