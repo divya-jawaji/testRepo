@@ -57,6 +57,7 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>TodayAPI42</members>
         <members>TodayAPI43</members>
         <members>Welcome31</members>
         <members>WelcomeTest2</members>
